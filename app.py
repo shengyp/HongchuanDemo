@@ -88,9 +88,7 @@ class Handler(BaseHTTPRequestHandler):
             user = self.current_user()
             if user:
                 return self.send_json(user)
-            user = auth.guest_user()
-            token = auth.create_session(user["id"])
-            return self.send_json(user, 200, f"nutri_session={token}; HttpOnly; SameSite=Strict; Path=/; Max-Age={auth.SESSION_SECONDS}")
+            return self.send_json({"error": "请先登录"}, 401)
         if route.startswith("/api/"):
             user = self.require_user()
             if not user:

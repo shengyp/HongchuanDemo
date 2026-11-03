@@ -2,6 +2,7 @@
 import { computed, onMounted, ref } from 'vue'
 import { api } from './api'
 import ChatPanel from './components/ChatPanel.vue'
+import LoginPage from './components/LoginPage.vue'
 import DataPanel from './components/DataPanel.vue'
 import DataQualityPanel from './components/DataQualityPanel.vue'
 import DiyPanel from './components/DiyPanel.vue'
@@ -99,6 +100,24 @@ async function refreshAfterImport(): Promise<void> {
   await loadWorkspace()
 }
 function retry(): void { window.location.reload() }
+async function signedIn(account: User): Promise<void> {
+  user.value = account
+  error.value = ''
+  try {
+    nutritionOptions.value = await api.nutritionDatasets()
+    nutritionDataset.value = nutritionOptions.value.some(item => item.id === 'current') ? 'current' : 'demo'
+    await loadWorkspace()
+  } catch (cause) { error.value = cause instanceof Error ? cause.message : '页面加载失败' }
+}
+async function signOut(): Promise<void> {
+  try {
+    await api.logout()
+    user.value = null
+    summary.value = null
+    nutritionOptions.value = []
+    error.value = ''
+  } catch (cause) { error.value = cause instanceof Error ? cause.message : '退出失败' }
+}
 function activate(id: ModuleId): void {
   activeModule.value = id
   activeSection.value = modules.find(item => item.id === id)!.sections[0]!.id
@@ -112,11 +131,10 @@ async function loadWorkspace(): Promise<void> {
 }
 onMounted(async () => {
   try {
-    user.value = await api.me()
-    nutritionOptions.value = await api.nutritionDatasets()
-    nutritionDataset.value = nutritionOptions.value.some(item => item.id === 'current') ? 'current' : 'demo'
-    await loadWorkspace()
-  } catch (cause) { error.value = cause instanceof Error ? cause.message : '页面加载失败' }
+    const account = await api.me()
+    if (account.username === 'guest') await api.logout()
+    else await signedIn(account)
+  } catch { user.value = null }
   finally { loading.value = false }
 })
 </script>
@@ -124,7 +142,8 @@ onMounted(async () => {
 <template>
   <v-app>
     <div v-if="loading" class="loading-page">正在打开营养食谱研究门户…</div>
-    <div v-else-if="!user || !summary" class="loading-page">页面暂时无法打开。{{ error }} <button @click="retry">重试</button></div>
+    <LoginPage v-else-if="!user" @authenticated="signedIn" />
+    <div v-else-if="!summary" class="loading-page">页面暂时无法打开。{{ error }} <button @click="retry">重试</button></div>
     <div v-else class="portal-layout" :data-module="activeModule">
       <header class="portal-header">
         <div class="portal-width portal-header-inner">
@@ -132,7 +151,7 @@ onMounted(async () => {
           <nav class="portal-nav" aria-label="主要功能">
             <v-btn v-for="item in modules" :key="item.id" variant="text" :class="{active:activeModule===item.id}" @click="activate(item.id)">{{ item.title }}</v-btn>
           </nav>
-          <div class="portal-account"><span class="portal-account-avatar">体</span><span>体验用户</span></div>
+          <div class="portal-account"><span class="portal-account-avatar">{{ user.username.slice(0, 1).toUpperCase() }}</span><span class="portal-account-name" :title="user.username">{{ user.username }}</span><button class="portal-signout" type="button" @click="signOut">退出</button></div>
         </div>
       </header>
 

@@ -19,6 +19,7 @@ import './kg-explore.css'
 import './link-prediction.css'
 import './diy-confidence.css'
 import './material-theme.css'
+import './login.css'
 
 const vuetify = createVuetify({
   components: { VAlert, VApp, VAutocomplete, VBtn, VCard, VChip, VIcon, VSelect },
