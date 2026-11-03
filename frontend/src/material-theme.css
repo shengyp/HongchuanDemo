@@ -1,0 +1,242 @@
+:root{
+  --portal-ink:#193c30;
+  --portal-green:#156b52;
+  --portal-muted:#71867a;
+}
+html,body,#app{min-height:100%;background:#f7f9f7}
+body{font-family:Inter,"Microsoft YaHei","Noto Sans SC",Arial,sans-serif}
+.v-application{background:#f7f9f7!important;color:#193c30}
+.portal-layout{background:#f7f9f7}
+.portal-width{width:min(1240px,calc(100% - clamp(48px,10vw,176px)))}
+.portal-utility{height:28px;background:#174838;font-size:10px}
+.portal-header{border-color:#e4ece6;box-shadow:0 2px 12px #214d3210}
+.portal-header-inner{min-height:72px;grid-template-columns:206px minmax(0,1fr) 92px;gap:12px}
+.portal-brand-mark{background:#e4f3e9;color:#166b50;border-radius:13px}
+.portal-brand strong{font-size:18px}
+.portal-nav{grid-template-columns:repeat(5,minmax(0,1fr))}
+.portal-nav .v-btn{height:100%;min-height:72px;width:100%;border-radius:0;background:transparent;color:#587263;letter-spacing:0;font-size:12px;font-weight:700}
+.portal-nav .v-btn .v-btn__content{display:flex;gap:7px;align-items:center;white-space:nowrap}
+.portal-nav .v-btn:hover{background:#f3f8f4;color:#156b52}
+.portal-nav .v-btn.active{background:#edf7f0;color:#156b52}
+.portal-nav .v-btn.active:after{left:16px;right:16px;background:#22966e}
+.portal-nav .v-btn small{font-size:10px;color:#8cae98}
+.portal-hero{width:min(1240px,calc(100% - clamp(48px,10vw,176px)));margin:24px auto 0;background:linear-gradient(115deg,#e9f5ed 0%,#f8fcf9 72%);color:#193f31;border:1px solid #e0eae3;border-radius:20px;overflow:hidden}
+.portal-hero-inner{width:100%;margin:0;padding:0 36px;min-height:212px}
+.portal-hero-copy{padding:28px 0 30px;max-width:900px}
+.portal-breadcrumb{margin-bottom:12px;color:#658576}
+.portal-breadcrumb span{color:#a6b8aa}
+.portal-kicker{color:#26866a;letter-spacing:.15em;margin-bottom:7px}
+.portal-hero h1{font-size:clamp(29px,3vw,40px);margin-bottom:9px;letter-spacing:-.035em}
+.portal-hero-description{color:#607c6b;font-size:13px;line-height:1.7}
+.portal-hero-tags{margin-top:16px}
+.portal-hero-tags .v-chip{color:#2e6f54!important;border-color:#b7d9c3!important;background:#fff7;font-size:11px}
+.portal-body{padding:24px 0 54px}
+.portal-section-nav{grid-template-columns:160px minmax(0,1fr);gap:18px;padding:18px;border-radius:18px;margin-bottom:27px;box-shadow:0 3px 16px #183c2b0d}
+.portal-section-intro{padding:8px 4px 5px}
+.portal-section-intro h2{font-size:18px}
+.portal-subnav{gap:9px}
+.portal-subnav .v-card{display:flex;align-items:center;gap:11px;padding:14px 13px;min-height:72px;background:#fff!important;border:1px solid #e1ebe4!important;border-radius:12px!important;box-shadow:none!important;cursor:pointer}
+.portal-subnav .v-card:hover{background:#f5faf6!important;border-color:#9bc9ab!important}
+.portal-subnav .v-card.active{background:#edf7f0!important;border-color:#72b28b!important;box-shadow:0 0 0 1px #b5dec3 inset!important}
+.portal-subnav .v-card strong{font-size:13px}
+.portal-subnav .v-card small{font-size:10px;margin-top:5px}
+.portal-subnav-arrow{margin-left:auto;color:#44865e}
+.portal-content .page-heading h1{font-size:23px}
+.surface,.recipe-card,.lp-foodcom-card{border-color:#e1eae3!important;border-radius:16px!important;box-shadow:0 2px 12px #1c503109}
+.primary,.lp-primary{background:#156b52!important;color:#fff!important;border-radius:10px!important;box-shadow:none!important;white-space:nowrap}
+.primary:hover:not(:disabled),.lp-primary:hover:not(:disabled){background:#0f5944!important}
+input,select,textarea{accent-color:#156b52}
+input:focus-visible,select:focus-visible,textarea:focus-visible,button:focus-visible,.v-card:focus-visible{outline:2px solid #4d9a75;outline-offset:2px}
+.portal-dataset-context{background:#fff;border:1px solid #e1ebe4;border-radius:14px;box-shadow:0 2px 12px #1c503108}
+.ingredient-picker .v-input{margin-top:8px}
+.ingredient-picker .v-field{border-radius:11px;background:#fff}
+.ingredient-picker .v-chip{background:#e8f4eb;color:#1d6e50}
+.portal-footer{border-color:#e5ede7}
+@media(max-width:1180px){.portal-header-inner{grid-template-columns:1fr auto}.portal-nav .v-btn{min-height:50px}.portal-hero-inner{min-height:190px}}
+@media(max-width:820px){.portal-width{width:calc(100% - 40px)}.portal-hero{width:calc(100% - 40px)}.portal-hero-inner{padding:0 26px}.portal-section-nav{grid-template-columns:1fr}.portal-section-intro{border-right:0;border-bottom:1px solid #e6eee7}}
+@media(max-width:620px){.portal-width,.portal-hero{width:calc(100% - 28px)}.portal-hero{margin-top:14px;border-radius:15px}.portal-hero-inner{padding:0 20px}.portal-nav{display:flex;overflow-x:auto;width:100%;margin:0;padding:0 8px}.portal-nav .v-btn{flex:0 0 auto;width:auto;min-width:132px}.portal-hero-copy{padding:24px 0}.portal-hero h1{font-size:29px}.portal-body{padding-top:18px}.portal-section-nav{padding:14px}}
+
+/* Visual language inspired by the references; the portal layout stays intact. */
+:root{--portal-ink:#25352e;--portal-green:#247453;--portal-muted:#7f8d87}
+html,body,#app{background:#f8f9fb}
+.v-application,.portal-layout{background:#f8f9fb!important;color:#25352e}
+.portal-utility{background:#244d3d;color:#edf7ef}
+.portal-header{background:#fff;border-color:#edf0ee;box-shadow:0 4px 22px #283e3410}
+.portal-brand-mark{background:#e6f5eb;color:#267a55}
+.portal-brand strong{color:#20372a}
+.portal-nav .v-btn{color:#627169}
+.portal-nav .v-btn:hover{background:#f8f9fb;color:#216749}
+.portal-nav .v-btn.active{background:#f3f7f4;color:#216749}
+.portal-nav .v-btn.active:after{background:#ed946c}
+.portal-nav .v-btn small{color:#a0aba5}
+.portal-account-dot{background:#4fae7a}
+.portal-hero{position:relative;background:#f7f6f1!important;border-color:#eaece6;color:#263a31;box-shadow:0 12px 35px #394d3710}
+.portal-hero:before{content:"";position:absolute;width:320px;height:320px;border-radius:50%;right:1%;top:-205px;background:#d9efe6;opacity:.75;pointer-events:none}
+.portal-hero:after{content:"";position:absolute;width:240px;height:240px;border-radius:50%;right:14%;bottom:-180px;background:#fbe8d9;opacity:.75;pointer-events:none}
+.portal-hero-copy{position:relative;z-index:1}
+.portal-breadcrumb{color:#69917a}
+.portal-breadcrumb span{color:#b1bfb5}
+.portal-hero h1{color:#233c2e}
+.portal-hero-description{color:#607a69}
+.portal-hero-tags .v-chip{background:#fff!important;border-color:#dce9dd!important;color:#47735a!important}
+.portal-section-nav{background:#fff;border-color:#ecefeb;box-shadow:0 10px 32px #2b453211}
+.portal-section-intro span{color:#ba795c}
+.portal-section-intro h2{color:#26382e}
+.portal-section-intro p{color:#89978e}
+.portal-subnav .v-card{position:relative;overflow:hidden;background:#fff!important;border-color:#e9eee9!important;box-shadow:0 3px 13px #213b2a0a!important}
+.portal-subnav .v-card:before{content:"";position:absolute;left:0;top:0;bottom:0;width:4px;background:#7ab4a5}
+.portal-subnav .v-card:nth-child(4n+2):before{background:#f1a176}
+.portal-subnav .v-card:nth-child(4n+3):before{background:#9184cd}
+.portal-subnav .v-card:nth-child(4n+4):before{background:#71a9d9}
+.portal-subnav .v-card:hover{background:#fcfdfa!important;border-color:#cadfd1!important;box-shadow:0 8px 20px #213b2a12!important}
+.portal-subnav .v-card.active{background:#f2f8f3!important;border-color:#9fc7ab!important;box-shadow:0 5px 17px #24745318!important}
+.portal-subnav .v-card strong{color:#294936}
+.portal-subnav-number{color:#659a7e}
+.portal-subnav-arrow{color:#718e78}
+.portal-dataset-context{border-color:#e7ece7;box-shadow:0 3px 14px #2740310a}
+.surface,.recipe-card,.lp-foodcom-card{border-color:#e8ede9!important;box-shadow:0 6px 22px #243f2c0b!important}
+.primary,.lp-primary{background:#287858!important}
+.primary:hover:not(:disabled),.lp-primary:hover:not(:disabled){background:#1e6449!important}
+.portal-footer{background:#fff;border-color:#e9eeeb}
+
+/* A restrained color family for each main module. */
+.portal-layout{--module-accent:#3e8d78;--module-soft:#edf7f2;--module-border:#cfe5d9}
+.portal-layout[data-module="graph"]{--module-accent:#7677ac;--module-soft:#f0f0fa;--module-border:#dcdcf0}
+.portal-layout[data-module="task"]{--module-accent:#c27855;--module-soft:#fff2e9;--module-border:#f1d9c8}
+.portal-layout[data-module="diy"]{--module-accent:#b66f86;--module-soft:#fbf0f3;--module-border:#efd7df}
+.portal-layout[data-module="qa"]{--module-accent:#4f83ad;--module-soft:#edf5fb;--module-border:#d2e5f1}
+.portal-utility{background:#2a3f43}
+.portal-nav .v-btn.active{background:var(--module-soft)!important;color:var(--module-accent)!important}
+.portal-nav .v-btn.active:after{background:var(--module-accent)!important}
+.portal-hero{background:linear-gradient(105deg,#fff 18%,var(--module-soft) 100%)!important;border-color:var(--module-border)!important;box-shadow:0 8px 28px #25374a0a}
+.portal-hero:before,.portal-hero:after{display:none}
+.portal-breadcrumb,.portal-kicker{color:var(--module-accent)}
+.portal-hero-description{color:#61707a}
+.portal-hero-tags .v-chip{border-color:var(--module-border)!important;color:var(--module-accent)!important;background:#fff!important}
+.portal-section-intro span,.portal-subnav-number,.portal-subnav-arrow{color:var(--module-accent)}
+.portal-subnav .v-card.active{border-color:var(--module-border)!important;background:var(--module-soft)!important;box-shadow:0 4px 16px #263a470c!important}
+.portal-subnav .v-card.active:before{background:var(--module-accent)}
+.portal-subnav .v-card:nth-child(4n+1):before{background:#77b8a2}
+.portal-subnav .v-card:nth-child(4n+2):before{background:#efaa82}
+.portal-subnav .v-card:nth-child(4n+3):before{background:#9995cd}
+.portal-subnav .v-card:nth-child(4n+4):before{background:#82b8d9}
+.portal-subnav .v-card.active:before{background:var(--module-accent)}
+.portal-subnav .v-card:hover{background:#fafbfd!important;border-color:var(--module-border)!important}
+.portal-subnav .v-card strong{color:#32454a}
+.portal-section-nav,.surface,.recipe-card,.lp-foodcom-card{box-shadow:0 5px 20px #25374a0a!important}
+
+/* Inner pages: neutral surfaces first, color reserved for purpose and state. */
+.portal-layout .kg-file-box,.portal-layout .kg-empty,.portal-layout .kg-dataset-card,.portal-layout .kg-chart-card,.portal-layout .kg-type-card,.portal-layout .kg-foodcom-overview{background:#fff!important}
+.portal-layout .kg-file-box:hover,.portal-layout .kg-dataset-card:hover{background:#f5f7fb!important}
+.portal-layout .kg-dataset-card.active{background:#edf3fa!important;border-color:#9bbbd8!important}
+.portal-layout .kg-status,.portal-layout .kg-format code,.portal-layout .kg-table-scroll th,.portal-layout .catalog-table th{background:#f2f5f8!important}
+.portal-layout .kg-step,.portal-layout .kg-card-head>strong{background:#e8f1f8!important;color:#4d7798!important}
+.portal-layout .kg-relation,.portal-layout .kg-chips span{background:#edf4f9!important}
+.portal-layout .kg-bar-track{background:repeating-linear-gradient(to top,#e9edf3 0,#e9edf3 1px,transparent 1px,transparent 25%)!important}
+.portal-layout .kg-bar-track div{background:linear-gradient(180deg,#6baac4,#527fae)!important}
+.portal-layout .kgx-svg{background:#fff!important}
+.portal-layout .kgx-triple,.portal-layout .kgx-related button,.portal-layout .kgx-empty,.portal-layout .kgx-no-match{background:#f8f9fc!important}
+.portal-layout .kgx-evidence{background:#eef4fb!important;border-left-color:#6c93be!important}
+.portal-layout .kgx-zoom button,.portal-layout .kgx-layout-actions button:hover:not(.active){background:#f0f2f8!important}
+.portal-layout .lp-steps,.portal-layout .lp-task-item.active,.portal-layout .lp-candidate-list button.active{background:#fff4ed!important;border-color:#edc8b4!important}
+.portal-layout .lp-steps b,.portal-layout .lp-query-line i{background:#ffe8d9!important;color:#a65f43!important}
+.portal-layout .lp-query-line,.portal-layout .lp-result-metrics div,.portal-layout .lp-evidence,.portal-layout .lp-no-candidate,.portal-layout .lp-empty{background:#f8f9fc!important}
+.portal-layout .lp-section-head button,.portal-layout .lp-result-head button{background:#f3f5fa!important;border-color:#e1e6ef!important}
+.portal-layout .research-search-hero{background:#fff!important;border-color:#e5e9ef!important}
+.portal-layout .research-callout,.portal-layout .research-empty,.portal-layout .research-similar-list>div{background:#f3f6fa!important;border-color:#e3e9f0!important}
+.portal-layout .research-chip-list span,.portal-layout .research-search-tabs{background:#eef1f7!important;border-color:#e0e5ef!important}
+.portal-layout .research-result-list button:hover,.portal-layout .research-result-list button.active{background:#f2f5fa!important}
+.portal-layout .dc-intro,.portal-layout .dc-method-note,.portal-layout .dc-empty{background:#fcf2f5!important;border-color:#f0dce3!important}
+.portal-layout .dc-score-grid article,.portal-layout .dc-check-grid article,.portal-layout .evaluation-result-card{background:#fff!important}
+.portal-layout .dc-light-button,.portal-layout .dc-recipe-mark{background:#f4f1f7!important}
+.portal-layout .chat-history{background:#f7f8fb!important;border-color:#e6e9f0!important}
+.portal-layout .chat-history-row:hover,.portal-layout .chat-history-row.active{background:#eaeef8!important}
+.portal-layout .chat-welcome-icon,.portal-layout .chat-message-avatar{background:#e9eef8!important;color:#527cad!important}
+.portal-layout .chat-message-row.user .chat-message-content{background:#edf3fb!important;border-color:#dce7f3!important}
+.portal-layout .chat-model-picker select,.portal-layout .qa-model-selector{background:#f7f8fb!important;border-color:#e2e7ef!important}
+.portal-layout .foodcom-stats div{background:#f3f5fa!important}
+.portal-layout .real-data-hero{background:linear-gradient(110deg,#2b4657,#355e75)!important}
+
+/* Full-page layout: compact top menu and content directly underneath. */
+.portal-layout{min-height:100vh;background:#f4f7f9!important}
+.portal-width{width:min(1460px,calc(100% - 64px));margin-left:auto;margin-right:auto}
+.portal-header{position:sticky;top:0;z-index:40;background:#fff;border-bottom:1px solid #e6ebef;box-shadow:0 3px 18px #263c4e0a}
+.portal-header-inner{min-height:76px;grid-template-columns:190px minmax(0,1fr) 112px;gap:16px;align-items:center}
+.portal-brand-mark{width:38px;height:38px;border-radius:9px;background:#e5f1f7;color:#2587ad;font-size:22px}
+.portal-brand strong{font-size:18px;color:#243c4b}
+.portal-brand small{color:#8c9aa5;font-size:10px;letter-spacing:0}
+.portal-nav{display:flex;align-items:center;justify-content:center;gap:7px;height:100%;min-width:0}
+.portal-nav .v-btn{height:42px;min-height:42px;width:auto;min-width:0;padding:0 13px;border-radius:8px!important;color:#5f7180;font-size:12px;font-weight:650;white-space:nowrap}
+.portal-nav .v-btn:hover{background:#f1f5f8!important;color:#287ca5!important}
+.portal-nav .v-btn.active{background:#eaf4fa!important;color:#247fac!important}
+.portal-nav .v-btn.active:after{display:none}
+.portal-account{gap:8px;color:#536a79;font-size:11px}
+.portal-account-avatar{width:31px;height:31px;display:grid;place-items:center;border-radius:9px;background:#e9f0f5;color:#477c99;font-size:13px;font-weight:750}
+.portal-main{min-height:calc(100vh - 76px);background:#f4f7f9}
+.portal-body{padding:24px 0 64px}
+.portal-section-nav{display:flex;align-items:center;gap:6px;overflow-x:auto;white-space:nowrap;padding:0 0 11px;margin:0 0 23px;background:transparent;border:0;border-bottom:1px solid #e2e9ee;border-radius:0;box-shadow:none!important}
+.portal-subtab{position:relative;flex:none;min-height:38px;padding:8px 15px;border:0;border-radius:7px;background:transparent;color:#6b7c88;font:inherit;font-size:12px;font-weight:650;cursor:pointer}
+.portal-subtab:hover{background:#eaf0f5;color:#2e6f92}
+.portal-subtab.active{background:#fff;color:var(--module-accent);box-shadow:0 1px 6px #263c4e10}
+.portal-subtab.active:after{content:"";position:absolute;left:13px;right:13px;bottom:0;height:2px;background:var(--module-accent);border-radius:2px}
+.portal-content{min-height:calc(100vh - 178px)}
+.portal-body-chat{padding-top:24px;padding-bottom:24px}
+.portal-body-chat .portal-content{min-height:0}
+.portal-layout .chat-shell{height:calc(100vh - 126px)!important;min-height:650px;max-height:none;border-radius:14px;border-color:#e3ebf1;box-shadow:0 10px 34px #29445d0d}
+.portal-layout .chat-history{background:#f2f6f9!important}
+.portal-layout .chat-main-head{background:#fff}
+.portal-layout .chat-history-new{background:#2c8fc3!important;color:#fff!important;border-color:#2c8fc3!important}
+.portal-layout .chat-history-new .v-btn__content{color:#fff}
+.portal-layout .chat-history-row.active{background:#fff!important;box-shadow:0 1px 7px #29445d12}
+.portal-layout .chat-message-row.user .chat-message-content{background:#dff0fa!important;border-color:#d2e7f4!important}
+.portal-layout .chat-compose button{background:#2c8fc3!important}
+.portal-dataset-context{margin-bottom:20px}
+@media(max-width:1120px){.portal-header-inner{grid-template-columns:170px minmax(0,1fr) 88px;gap:6px}.portal-nav{gap:2px}.portal-nav .v-btn{padding:0 8px;font-size:11px}}
+@media(max-width:880px){.portal-width{width:calc(100% - 36px)}.portal-header-inner{grid-template-columns:1fr auto;gap:0}.portal-brand{min-height:62px}.portal-account{grid-column:2;grid-row:1}.portal-nav{grid-column:1/-1;grid-row:2;justify-content:flex-start;height:48px;overflow-x:auto;border-top:1px solid #eef2f5}.portal-nav .v-btn{flex:none;height:38px;min-height:38px}.portal-body{padding-top:18px}.portal-layout .chat-shell{height:calc(100vh - 150px)!important}}
+@media(max-width:620px){.portal-width{width:calc(100% - 24px)}.portal-header-inner{width:100%;padding:0 12px}.portal-nav{width:calc(100% + 24px);margin:0 -12px;padding:0 12px}.portal-account span:last-child{display:none}.portal-body{padding:14px 0 36px}.portal-section-nav{margin-bottom:16px}.portal-subtab{padding:7px 11px}.portal-layout .chat-shell{height:calc(100vh - 140px)!important;min-height:620px}}
+
+/* Compact model selector in the chat header. */
+.portal-layout .chat-model-picker{width:250px;min-width:250px;max-width:250px;gap:3px}
+.portal-layout .chat-model-picker .v-input{width:100%;font-size:13px}
+.portal-layout .chat-model-picker .v-field{height:42px;min-height:42px;border-radius:8px;background:#fff}
+.portal-layout .chat-model-picker .v-field__input{min-height:40px!important;padding-top:0!important;padding-bottom:0!important;align-items:center}
+.portal-layout .chat-model-picker .v-field__append-inner{padding-top:8px}
+.portal-layout .chat-model-picker .v-input__details{display:none!important}
+.portal-layout .chat-model-picker small{font-size:10px;line-height:1.2}
+@media(max-width:600px){.portal-layout .chat-model-picker{width:100%;min-width:0;max-width:100%}}
+
+/* Unified cool blue palette from the graph explorer reference. */
+:root{--portal-ink:#173b52;--portal-green:#1688c0;--portal-muted:#758b99}
+html,body,#app,.v-application,.portal-layout,.portal-main{background:#f3f8fb!important;color:#18384d}
+.portal-layout[data-module]{--module-accent:#1688c0;--module-soft:#eaf5fb;--module-border:#cde5f2}
+.portal-header{border-color:#e2ebf1;box-shadow:0 3px 18px #26485e0b}
+.portal-brand-mark{background:#e4f3fa;color:#1688c0}
+.portal-nav .v-btn.active{background:#e7f3fa!important;color:#137ead!important}
+.portal-nav .v-btn:hover{background:#f0f7fb!important;color:#137ead!important}
+.portal-subtab.active{color:#1688c0}
+.portal-subtab.active:after{background:#1688c0}
+.portal-layout .page-heading h1,.portal-layout .kg-heading h2,.portal-layout .kgx-heading h2,.portal-layout .lp-heading h2,.portal-layout .dc-heading h2,.portal-layout .chat-main-head h1{color:#163b53}
+.portal-layout .eyebrow,.portal-layout .kg-eyebrow,.portal-layout .kgx-eyebrow,.portal-layout .lp-kicker,.portal-layout .dc-kicker,.portal-layout .chat-main-eyebrow{color:#1688c0!important}
+.portal-layout .primary,.portal-layout .lp-primary,.portal-layout .kg-primary-button,.portal-layout .kg-search button,.portal-layout .kg-rename button,.portal-layout .lp-foodcom-search button,.portal-layout .kgx-layout-actions button.active,.portal-layout .kgx-toolbar>button,.portal-layout .kgx-empty button,.portal-layout .lp-empty button,.portal-layout .dc-primary,.portal-layout .chat-compose button{background:#1688c0!important;border-color:#1688c0!important;color:#fff!important}
+.portal-layout .primary:hover:not(:disabled),.portal-layout .lp-primary:hover:not(:disabled),.portal-layout .kg-primary-button:hover,.portal-layout .dc-primary:hover{background:#0d75a8!important}
+.portal-layout .kg-step,.portal-layout .kg-card-head>strong,.portal-layout .section-icon,.portal-layout .quality-step,.portal-layout .evaluation-steps span{background:#e6f3fa!important;color:#1688c0!important}
+.portal-layout .kg-stats article:before,.portal-layout .kg-status-dot,.portal-layout .kgx-meta i{background:#21a8c3!important}
+.portal-layout .kg-dataset-card.active,.portal-layout .lp-task-item.active,.portal-layout .lp-candidate-list button.active{background:#eaf5fb!important;border-color:#a8d5e9!important}
+.portal-layout .lp-steps,.portal-layout .lp-query-line,.portal-layout .dc-intro,.portal-layout .dc-method-note,.portal-layout .dc-empty,.portal-layout .research-callout{background:#eef7fb!important;border-color:#d4e9f3!important}
+.portal-layout .lp-steps b,.portal-layout .lp-query-line i,.portal-layout .dc-recipe-mark,.portal-layout .chat-welcome-icon{background:#e1f1f9!important;color:#1688c0!important}
+.portal-layout .kg-relation,.portal-layout .kg-chips span,.portal-layout .research-chip-list span,.portal-layout .ingredient-picker .v-chip{background:#e8f4fa!important;color:#26769b!important}
+.portal-layout .kgx-evidence,.portal-layout .lp-evidence{background:#eef8fc!important;border-color:#d5ebf4!important}
+.portal-layout .kgx-evidence{border-left-color:#35aec7!important}
+.portal-layout .foodcom-stats strong,.portal-layout .lp-stats strong,.portal-layout .kgx-detail h3{color:#1a688e!important}
+.portal-layout .chat-history-new,.portal-layout .chat-compose button{background:#1688c0!important;border-color:#1688c0!important}
+.portal-layout .chat-message-row.user .chat-message-content{background:#dff1fa!important;border-color:#cce6f3!important}
+.portal-layout input:focus-visible,.portal-layout select:focus-visible,.portal-layout textarea:focus-visible,.portal-layout button:focus-visible{outline-color:#49a7d0}
+
+@media(max-width:900px){.portal-layout .chat-shell{height:auto!important;min-height:0!important;overflow:visible}}
+@media(max-width:600px){.portal-layout .chat-shell{height:auto!important;min-height:0!important}}
+
+/* Conversation cards follow the blue chat reference. */
+.portal-layout .chat-message-row.user .chat-message-content{background:#1688c0!important;border-color:#1688c0!important;color:#fff!important}
+.portal-layout .chat-message-row.user .chat-message-meta,.portal-layout .chat-message-row.user .chat-message-meta span{color:#e9f6fc!important}
+.portal-layout .chat-message-row.assistant .chat-message-content{background:#edf7fb!important;border-color:#d9eaf2!important}
+.portal-layout .chat-message-row.assistant .chat-message-meta{color:#187fac}

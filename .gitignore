@@ -1,0 +1,10 @@
+frontend/node_modules/
+dist/
+data/current.json
+data/app.db
+__pycache__/
+*.pyc
+docs/.docx_work/
+docs/_brief_render/
+docs/_soft_copyright_render/
+docs/_reference_outline.txt

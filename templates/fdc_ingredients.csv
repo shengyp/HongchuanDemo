@@ -1,0 +1,181 @@
+﻿id,name,category,energy_kcal,protein_g,fat_g,carbs_g,fiber_g,sodium_mg
+fdc_321358,"Hummus, commercial",USDA Foundation Foods,229.0,7.35,17.1,14.9,5.4,438.0
+fdc_321360,"Tomatoes, grape, raw",USDA Foundation Foods,27.0,0.83,0.63,5.51,2.1,6.0
+fdc_321900,"Broccoli, raw",USDA Foundation Foods,32.0,2.57,0.34,6.29,2.4,36.0
+fdc_323294,"Nuts, almonds, dry roasted, with salt added",USDA Foundation Foods,621.0,20.4,57.8,16.2,11.0,256.0
+fdc_323505,"Kale, raw",USDA Foundation Foods,35.0,2.92,1.49,4.42,4.1,53.0
+fdc_324038,"Sauce, salsa, ready-to-serve",USDA Foundation Foods,29.0,1.44,0.19,6.74,1.8,656.0
+fdc_324317,"Onion rings, breaded, par fried, frozen, prepared, heated in oven",USDA Foundation Foods,289.0,4.52,14.4,36.3,2.4,374.0
+fdc_324653,"Pickles, cucumber, dill or kosher dill",USDA Foundation Foods,12.0,0.48,0.43,1.99,1.0,808.0
+fdc_324860,"Peanut butter, smooth style, with salt",USDA Foundation Foods,597.0,22.5,51.1,22.3,4.8,429.0
+fdc_325287,"Grapefruit juice, white, canned or bottled, unsweetened",USDA Foundation Foods,37.0,0.55,0.7,7.59,0.2,1.0
+fdc_325430,"Peaches, yellow, raw",USDA Foundation Foods,42.0,0.91,0.27,10.1,1.5,13.0
+fdc_325524,"Seeds, sunflower seed kernels, dry roasted, with salt added",USDA Foundation Foods,612.0,21.0,56.1,17.1,10.3,532.0
+fdc_325871,"Bread, white, commercially prepared",USDA Foundation Foods,270.0,9.43,3.59,49.2,2.3,477.0
+fdc_326458,"Carrots, frozen, unprepared (Includes foods for USDA's Food Distribution Program)",USDA Foundation Foods,37.0,0.81,0.47,7.92,3.2,66.0
+fdc_326698,"Mustard, prepared, yellow",USDA Foundation Foods,61.0,4.25,3.38,5.3,4.3,1100.0
+fdc_326905,"Figs, dried, uncooked",USDA Foundation Foods,249.0,3.3,0.92,63.9,9.8,10.0
+fdc_327046,"Kiwifruit, green, raw",USDA Foundation Foods,58.0,1.06,0.44,14.0,3.0,5.0
+fdc_327198,"Melons, cantaloupe, raw",USDA Foundation Foods,34.0,0.82,0.18,8.16,0.8,30.0
+fdc_327357,"Nectarines, raw",USDA Foundation Foods,39.0,1.06,0.28,9.18,1.5,13.0
+fdc_327501,"Oranges, raw, navels (Includes foods for USDA's Food Distribution Program)",USDA Foundation Foods,47.0,0.91,0.15,11.8,2.0,9.0
+fdc_327699,"Strawberries, raw",USDA Foundation Foods,31.0,0.64,0.22,7.63,1.8,10.0
+fdc_330415,"Yogurt, Greek, strawberry, nonfat",USDA Foundation Foods,83.0,8.06,0.15,12.2,0.6,32.0
+fdc_332282,"Sauce, pasta, spaghetti/marinara, ready-to-serve",USDA Foundation Foods,45.0,1.41,1.48,8.05,1.8,419.0
+fdc_332597,"Pears, raw, bartlett (Includes foods for USDA's Food Distribution Program)",USDA Foundation Foods,57.0,0.38,0.16,15.1,3.1,7.0
+fdc_332791,"Olives, green, Manzanilla, stuffed with pimiento",USDA Foundation Foods,130.0,1.15,12.9,4.96,4.0,1620.0
+fdc_333008,"Cookies, oatmeal, soft, with raisins",USDA Foundation Foods,430.0,5.79,14.3,69.6,3.3,314.0
+fdc_334462,"Restaurant, Chinese, sweet and sour pork",USDA Foundation Foods,260.0,8.88,13.6,25.5,1.0,304.0
+fdc_334628,"Restaurant, Latino, tamale, pork",USDA Foundation Foods,174.0,7.38,9.04,15.8,2.4,473.0
+fdc_334720,"Restaurant, Latino, pupusas con frijoles (pupusas, bean)",USDA Foundation Foods,229.0,5.59,9.01,31.5,5.8,305.0
+fdc_335240,"Bread, whole-wheat, commercially prepared",USDA Foundation Foods,254.0,12.3,3.55,43.1,6.0,450.0
+fdc_746764,"Carrots, frozen, unprepared",USDA Foundation Foods,37.0,0.81,0.47,7.92,3.2,66.0
+fdc_746768,"Figs, dried, uncooked",USDA Foundation Foods,249.0,3.3,0.92,63.9,9.8,10.0
+fdc_746770,"Melons, cantaloupe, raw",USDA Foundation Foods,34.0,0.82,0.18,8.16,0.8,30.0
+fdc_746771,"Oranges, raw, navels",USDA Foundation Foods,47.0,0.91,0.15,11.8,2.0,9.0
+fdc_746773,"Pears, raw, bartlett",USDA Foundation Foods,57.0,0.38,0.16,15.1,3.1,7.0
+fdc_746774,"Restaurant, Chinese, sweet and sour pork",USDA Foundation Foods,260.0,8.88,13.6,25.5,1.0,304.0
+fdc_746777,"Sauce, salsa, ready-to-serve",USDA Foundation Foods,29.0,1.44,0.19,6.74,1.8,656.0
+fdc_747447,"Broccoli, raw",USDA Foundation Foods,32.0,2.57,0.34,6.27,2.4,36.0
+fdc_747448,"Strawberries, raw",USDA Foundation Foods,31.0,0.64,0.22,7.63,1.8,10.0
+fdc_748967,"Eggs, Grade A, Large, egg whole",USDA Foundation Foods,147.0,12.4,9.96,0.96,0.0,129.0
+fdc_790018,"Flour, wheat, all-purpose, unenriched, unbleached",USDA Foundation Foods,370.0,12.0,1.7,74.6,3.0,2.0
+fdc_790085,"Flour, whole wheat, unenriched",USDA Foundation Foods,346.0,15.1,2.73,71.2,10.6,3.0
+fdc_790214,"Flour, rice, white, unenriched",USDA Foundation Foods,369.0,6.94,1.3,79.8,0.5,5.0
+fdc_790276,"Flour, corn, yellow, fine meal, enriched",USDA Foundation Foods,372.0,6.2,1.74,80.8,4.3,0.0
+fdc_790577,"Onions, red, raw",USDA Foundation Foods,42.0,0.94,0.1,9.93,2.2,1.0
+fdc_790646,"Onions, yellow, raw",USDA Foundation Foods,36.0,0.83,0.05,8.61,1.9,1.0
+fdc_790991,"Bananas, ripe and slightly ripe, raw",USDA Foundation Foods,97.0,0.74,0.29,23.0,1.7,0.0
+fdc_1104962,"Onions, white, raw",USDA Foundation Foods,33.0,0.89,0.13,7.68,1.2,2.0
+fdc_1105314,"Bananas, ripe and slightly ripe, raw",USDA Foundation Foods,88.0,0.74,0.29,23.0,1.7,0.0
+fdc_1105430,"Apples, red delicious, with skin, raw",USDA Foundation Foods,56.0,0.19,0.21,14.8,2.0,0.0
+fdc_1105547,"Apples, honeycrisp, with skin, raw",USDA Foundation Foods,54.0,0.1,0.1,14.7,1.7,0.0
+fdc_1105664,"Apples, granny smith, with skin, raw",USDA Foundation Foods,53.0,0.27,0.14,14.2,2.5,0.0
+fdc_1105781,"Apples, gala, with skin, raw",USDA Foundation Foods,55.0,0.13,0.15,14.8,2.1,0.0
+fdc_1105897,"Apples, fuji, with skin, raw",USDA Foundation Foods,58.0,0.15,0.16,15.7,2.1,1.0
+fdc_1750337,"Soy milk, unsweetened, plain, shelf stable",USDA Foundation Foods,38.485,3.546875,2.125,1.293125,0.0,34.28
+fdc_1750338,"Almond milk, unsweetened, plain, shelf stable",USDA Foundation Foods,14.5562,0.5546875,1.221,0.3371125,0.0,59.58
+fdc_1750339,"Apples, red delicious, with skin, raw",USDA Foundation Foods,55.622745,0.1875,0.2125,14.7817,2.043,0.0
+fdc_1750340,"Apples, fuji, with skin, raw",USDA Foundation Foods,58.20306,0.1484375,0.1625,15.6511625,2.075,1.013
+fdc_1750341,"Apples, gala, with skin, raw",USDA Foundation Foods,54.866865,0.1328125,0.15,14.7680875,2.109,0.2788
+fdc_1750342,"Apples, granny smith, with skin, raw",USDA Foundation Foods,52.958085,0.265625,0.1375,14.142975,2.514,0.0
+fdc_1750343,"Apples, honeycrisp, with skin, raw",USDA Foundation Foods,54.033225,0.1015625,0.1,14.6819375,1.721,0.1375
+fdc_1750352,"Spinach, baby",USDA Foundation Foods,20.72851125,2.851875,0.6188,2.406325,1.558,111.4
+fdc_1750353,"Spinach, mature",USDA Foundation Foods,21.5796975,2.90625,0.6044,2.64135,1.588,106.6
+fdc_1750354,"Tomato, roma",USDA Foundation Foods,18.95436075,0.695625,0.425,3.837475,0.9706,0.0
+fdc_1999626,"Mushroom, lion's mane",USDA Foundation Foods,35.107387,2.5,0.2563,7.5897,4.376,0.3363
+fdc_1999627,"Mushroom, oyster",USDA Foundation Foods,33.31965,2.89875,0.1875,6.94125,2.85,1.128
+fdc_1999628,"Mushrooms, shiitake",USDA Foundation Foods,36.3915875,2.414375,0.195,8.170625,4.166,0.9363
+fdc_1999629,"Mushrooms, white button",USDA Foundation Foods,24.8732585,2.890625,0.3708,4.079375,1.717,6.443
+fdc_1999630,"Soy milk, unsweetened, plain, shelf stable",USDA Foundation Foods,38.485,3.546875,2.125,1.293125,0.0,34.28
+fdc_1999631,"Almond milk, unsweetened, plain, shelf stable",USDA Foundation Foods,14.5562,0.5546875,1.221,0.3371125,0.0,59.58
+fdc_1999632,"Spinach, baby",USDA Foundation Foods,20.72851125,2.851875,0.6188,2.406325,1.558,111.4
+fdc_1999633,"Spinach, mature",USDA Foundation Foods,21.5796975,2.90625,0.6044,2.64135,1.588,106.6
+fdc_1999634,"Tomato, roma",USDA Foundation Foods,18.95436075,0.695625,0.425,3.837475,0.9706,0.0
+fdc_2003586,"Flour, 00",USDA Foundation Foods,365.610744,11.4,1.52,74.4462,2.656,0.0
+fdc_2003587,"Flour, spelt, whole grain",USDA Foundation Foods,340.5831,14.475,2.543,70.723,9.339,0.0
+fdc_2003588,"Flour, semolina, coarse and semi-coarse",USDA Foundation Foods,365.0310665,11.73125,1.597,73.82345,3.216,0.0
+fdc_2003589,"Flour, semolina, fine",USDA Foundation Foods,365.9569125,13.33125,1.838,71.98575,3.683,0.4263
+fdc_2003598,"Mushroom, portabella",USDA Foundation Foods,26.024813,2.75,0.3117,4.6583,1.879,5.312
+fdc_2003599,"Mushroom, king oyster",USDA Foundation Foods,38.460412,2.40625,0.3075,8.50065,3.009,0.7713
+fdc_2003600,"Mushroom, enoki",USDA Foundation Foods,36.7150215,2.416875,0.245,8.141425,2.945,0.4167
+fdc_2003601,"Mushroom, crimini",USDA Foundation Foods,23.722638,3.09375,0.1967,4.01455,1.781,4.572
+fdc_2003602,"Mushroom, maitake",USDA Foundation Foods,30.9734625,2.203125,0.265,6.604375,3.071,0.345
+fdc_2003603,"Mushroom, beech",USDA Foundation Foods,32.995442,2.18,0.4494,6.7593,3.139,0.8913
+fdc_2003604,"Mushroom, pioppini",USDA Foundation Foods,31.236476,3.5,0.24,5.7637,2.753,0.0
+fdc_2257044,"Soy milk, sweetened, plain, refrigerated",USDA Foundation Foods,40.705,2.776875,1.957,2.996125,0.0,39.44
+fdc_2257045,"Almond milk, unsweetened, plain, refrigerated",USDA Foundation Foods,19.33,0.65625,1.558,0.67075,0.0,59.22
+fdc_2257046,"Oat milk, unsweetened, plain, refrigerated",USDA Foundation Foods,48.3298,0.796875,2.749,5.100325,0.0,41.98
+fdc_2258586,"Carrots, mature, raw",USDA Foundation Foods,44.978589,0.94125,0.3506,10.26755,3.095,86.65
+fdc_2258587,"Carrots, baby, raw",USDA Foundation Foods,38.250983,0.805,0.1375,9.0787,2.694,62.66
+fdc_2258588,"Peppers, bell, green, raw",USDA Foundation Foods,19.692148,0.715,0.1063,4.7781,0.9419,0.0
+fdc_2258589,"Peppers, bell, yellow, raw",USDA Foundation Foods,26.58104025,0.819375,0.1211,6.601725,1.071,0.0
+fdc_2258590,"Peppers, bell, red, raw",USDA Foundation Foods,26.98843175,0.895625,0.1256,6.653175,1.158,0.0
+fdc_2258591,"Peppers, bell, orange, raw",USDA Foundation Foods,27.38430325,0.881875,0.1556,6.703125,0.9674,0.0
+fdc_2261420,"Flour, almond",USDA Foundation Foods,577.62536,26.24375,50.23,16.24925,9.266,0.8944
+fdc_2261421,"Flour, oat, whole grain",USDA Foundation Foods,386.429275,13.16875,6.309,69.91725,10.5,3.619
+fdc_2261422,"Flour, potato",USDA Foundation Foods,352.682197,8.1125,0.9513,79.9422,5.401,47.66
+fdc_2262072,"Peanut butter, creamy",USDA Foundation Foods,589.383006,23.99124,49.43,22.70376,6.323,220.7
+fdc_2262073,"Sesame butter, creamy",USDA Foundation Foods,648.374268,19.7054,62.4,14.179,8.372,63.63
+fdc_2262074,"Almond butter, creamy",USDA Foundation Foods,602.510076,20.78734,53.04,21.23666,9.718,0.9963
+fdc_2262075,"Flaxseed, ground",USDA Foundation Foods,514.44343,18.0359,37.28,34.3551,23.13,36.74
+fdc_2346392,"Nuts, pine nuts, raw",USDA Foundation Foods,642.99228,15.7039,61.27,18.5921,3.941,0.0
+fdc_2346393,"Nuts, almonds, whole, raw",USDA Foundation Foods,583.597022,21.45038,51.09,20.03462,10.78,0.0
+fdc_2346394,"Nuts, walnuts, English, halves, raw",USDA Foundation Foods,678.66434,14.5644,69.74,10.9096,5.21,0.0
+fdc_2346395,"Nuts, pecans, halves, raw",USDA Foundation Foods,699.59644,9.9587,73.28,12.6993,5.793,0.0
+fdc_2346398,"Pineapple, raw",USDA Foundation Foods,54.046596,0.4609375,0.2113,14.0914625,0.9346,0.0
+fdc_2346400,"Beans, snap, green, raw",USDA Foundation Foods,33.5679465,1.96875,0.275,7.41245,3.011,0.0
+fdc_2512371,"Flour, amaranth",USDA Foundation Foods,377.9609,13.2093,6.236,68.7787,7.209,0.0
+fdc_2512372,"Flour, quinoa",USDA Foundation Foods,378.394015,11.92235,6.601,69.52465,6.295,6.321
+fdc_2512373,"Flour, sorghum",USDA Foundation Foods,363.8590417,8.27277,3.586,77.39123,6.019,0.0
+fdc_2512374,"Flour, buckwheat",USDA Foundation Foods,334.3016028,8.88492,2.484,75.01808,10.35,0.0
+fdc_2512375,"Flour, rye",USDA Foundation Foods,350.962038,8.3952,1.908,77.1618,13.68,0.0
+fdc_2512376,"Flour, barley",USDA Foundation Foods,357.191828,8.72168,2.45,77.39832,12.79,20.33
+fdc_2512377,"Flour, cassava",USDA Foundation Foods,358.55706075,0.918225,0.4938,87.312975,4.834,13.08
+fdc_2512378,"Buckwheat, whole grain",USDA Foundation Foods,331.6005206,11.06534,3.039,71.13066,4.046,0.0
+fdc_2512379,"Millet, whole grain",USDA Foundation Foods,380.6064975,10.02177,4.194,74.44623,2.619,0.0
+fdc_2512380,"Rice, brown, long grain, unenriched, raw",USDA Foundation Foods,368.3584745,7.25305,3.306,76.68795,3.021,0.0
+fdc_2512381,"Rice, white, long grain, unenriched, raw",USDA Foundation Foods,369.637321,7.03885,1.033,80.31315,0.1488,0.4625
+fdc_2515373,"Nuts, brazilnuts, raw",USDA Foundation Foods,620.950526,15.03684,57.43,21.64216,5.984,0.0
+fdc_2515374,"Nuts, cashew nuts, raw",USDA Foundation Foods,533.47799,17.4423,38.86,36.2887,4.104,4.759
+fdc_2515375,"Nuts, hazelnuts or filberts, raw",USDA Foundation Foods,602.39467,13.4938,53.49,26.5012,8.41,0.0
+fdc_2515376,"Peanuts, raw",USDA Foundation Foods,550.62181,23.205,43.28,26.498,8.014,1.493
+fdc_2515377,"Flour, chestnut",USDA Foundation Foods,384.58086,5.28675,4.636,80.45025,8.711,0.0
+fdc_2515378,"Nuts, macadamia nuts, raw",USDA Foundation Foods,668.54428,7.7857,64.93,24.0943,7.563,0.0
+fdc_2515379,"Nuts, pistachio nuts, raw",USDA Foundation Foods,560.68798,20.5057,45.02,27.6943,6.969,0.0
+fdc_2515380,"Seeds, pumpkin seeds (pepitas), raw",USDA Foundation Foods,514.83917,29.9079,40.03,18.6751,5.079,0.0
+fdc_2515381,"Seeds, sunflower seed, kernel, raw",USDA Foundation Foods,570.651,18.8733,48.44,24.5007,7.215,0.0
+fdc_2515382,"Flour, coconut",USDA Foundation Foods,423.62737,16.1385,15.28,58.9025,34.24,46.94
+fdc_2685568,"Squash, summer, green, zucchini, includes skin, raw",USDA Foundation Foods,16.0,0.984375,0.205,3.27,0.7525,0.0
+fdc_2685569,"Squash, summer, yellow, includes skin, raw",USDA Foundation Foods,19.0,0.890625,0.135,4.39,0.9563,0.0
+fdc_2685570,"Squash, winter, butternut, raw",USDA Foundation Foods,41.7165215,1.14875,0.1675,10.50745,1.959,0.0
+fdc_2685571,"Squash, winter, acorn, raw",USDA Foundation Foods,41.991125,1.25,0.1825,10.48,2.635,0.0
+fdc_2685572,"Cabbage, bok choy, raw",USDA Foundation Foods,17.0032275,1.02375,0.2338,3.51495,1.259,14.27
+fdc_2685573,"Cauliflower, raw",USDA Foundation Foods,22.85237775,1.640625,0.2375,4.723075,1.948,20.0
+fdc_2685574,"Collards, raw",USDA Foundation Foods,38.7580825,2.96875,0.77,7.02225,3.816,18.41
+fdc_2685575,"Brussels sprouts, raw",USDA Foundation Foods,48.77870625,3.984375,0.565,9.615625,4.785,25.74
+fdc_2685576,"Beets, raw",USDA Foundation Foods,40.965255,1.6875,0.3025,8.787,3.119,111.6
+fdc_2685577,"Eggplant, raw",USDA Foundation Foods,22.35856525,0.851875,0.12,5.399325,2.448,0.4425
+fdc_2685578,"Tomatoes, whole, canned, solids and liquids, with salt added",USDA Foundation Foods,19.149449,0.8675,0.2063,4.2874,0.8725,111.5
+fdc_2685579,"Tomato, sauce, canned, with salt added",USDA Foundation Foods,29.10400125,1.351875,0.3825,6.331625,1.636,416.9
+fdc_2685580,"Tomato, paste, canned, without salt added",USDA Foundation Foods,88.53450625,4.234375,0.7325,20.188125,4.704,61.15
+fdc_2685581,"Tomatoes, crushed, canned",USDA Foundation Foods,32.313665,1.4375,0.3975,7.137,1.944,139.8
+fdc_2685582,"Tomato, puree, canned",USDA Foundation Foods,34.76031875,1.578125,0.265,8.036875,1.971,29.36
+fdc_2710815,"Apricot, with skin, raw",USDA Foundation Foods,43.47915,0.96125,0.405,10.23875,1.51,0.0
+fdc_2710817,"Plantains, ripe, raw",USDA Foundation Foods,122.789661,1.15625,0.8933,30.95215,2.125,0.0
+fdc_2710818,"Plantains, underripe, raw",USDA Foundation Foods,144.50803225,1.229375,0.685,33.587325,2.53,0.0
+fdc_2710820,"Bulgur, dry, raw",USDA Foundation Foods,349.3017225,11.75625,2.421,75.88175,11.72,2.18
+fdc_2710821,"Wild rice, dry, raw",USDA Foundation Foods,358.55263,12.7875,1.704,75.6695,4.26,1.014
+fdc_2710822,"Arugula, baby, raw",USDA Foundation Foods,25.9078525,1.64875,0.325,5.36825,2.28,86.93
+fdc_2710823,"Asparagus, green, raw",USDA Foundation Foods,23.529215,1.4375,0.2163,5.1012,1.883,2.46
+fdc_2710825,"Rice, black, unenriched, raw",USDA Foundation Foods,360.53871,7.56875,3.438,77.18825,4.179,0.0
+fdc_2710826,"Corn, sweet, yellow and white kernels,  fresh, raw",USDA Foundation Foods,72.85765625,2.789375,1.626,14.689625,2.428,0.0
+fdc_2710827,"Einkorn, grain, dry, raw",USDA Foundation Foods,345.6801839,15.11719,3.811,68.65381,8.913,0.0
+fdc_2710828,"Farro, pearled, dry, raw",USDA Foundation Foods,344.0049964,12.63944,3.103,72.13156,7.31,0.845
+fdc_2710829,"Fonio, grain, dry, raw",USDA Foundation Foods,376.8911025,7.16875,1.693,81.30525,2.197,2.967
+fdc_2710830,"Khorasan, grain, dry, raw",USDA Foundation Foods,347.7914113,14.75573,2.8,71.79427,10.52,3.936
+fdc_2710831,"Kiwifruit (kiwi), green, peeled, raw",USDA Foundation Foods,58.48917,1.008125,0.64,13.818075,2.129,2.275
+fdc_2710832,"Mandarin, seedless, peeled, raw",USDA Foundation Foods,55.640145,1.039375,0.4575,13.421825,1.328,0.0
+fdc_2710833,"Mango, Tommy Atkins, peeled, raw",USDA Foundation Foods,61.635825,0.5625,0.5725,15.265,1.753,0.0
+fdc_2710834,"Mango, Ataulfo, peeled, raw",USDA Foundation Foods,70.638801,0.6875,0.6813,17.3962,1.289,0.0
+fdc_2710835,"Corn flour, masa harina, white or yellow, dry, raw",USDA Foundation Foods,366.03011,7.5625,4.34,76.6895,7.038,2.733
+fdc_2710836,"Pear, Anjou, green, with skin, raw",USDA Foundation Foods,57.320421,0.3125,0.3713,14.7674,2.636,0.3975
+fdc_2710837,"Plum, black, with skin, raw",USDA Foundation Foods,52.747095,0.578125,0.2825,13.455575,1.346,0.0
+fdc_2710838,"Rice, red, unenriched, dry, raw",USDA Foundation Foods,359.99995,8.5625,3.44,76.1545,4.198,0.4375
+fdc_2710839,"Sorghum bran, white, unenriched, dry, raw",USDA Foundation Foods,364.50325,11.16875,9.259,68.69525,34.95,2.915
+fdc_2710840,"Sorghum flour, white, pearled, unenriched, dry, raw",USDA Foundation Foods,349.558015,10.2125,3.238,73.5065,3.299,0.0
+fdc_2710841,"Sorghum grain, white, pearled, unenriched, dry, raw",USDA Foundation Foods,338.38971,10.25,3.265,74.872,3.916,0.0
+fdc_2710842,"Sorghum, whole grain, white, dry, raw",USDA Foundation Foods,340.98918,10.08125,4.219,73.57375,8.274,0.3288
+fdc_2710843,"Plantains, overripe, raw",USDA Foundation Foods,117.29613,1.166875,0.99,29.191425,1.792,0.0
+fdc_2747653,"Beet greens, raw",USDA Foundation Foods,26.367,1.609375,0.1438,4.658825,2.578,280.5
+fdc_2747655,"Fennel, bulb, raw",USDA Foundation Foods,26.8924,0.921875,0.14,5.486225,2.046,49.03
+fdc_2747659,"Parsnips, raw",USDA Foundation Foods,87.0745,1.265625,0.5381,19.292275,5.351,0.4913
+fdc_2747660,"Peppers, banana or Hungarian wax, seeded, raw",USDA Foundation Foods,23.9398,0.723125,0.1314,4.966175,1.79,0.0
+fdc_2747661,"Peppers, jalapeno, seeded, raw",USDA Foundation Foods,24.1264,0.621125,0.1488,5.075675,1.725,0.0
+fdc_2747662,"Peppers, poblano, seeded, raw",USDA Foundation Foods,27.9906,1.425625,0.1906,5.143175,2.07,0.0
+fdc_2747663,"Peppers, serrano, seeded, raw",USDA Foundation Foods,29.233,0.855625,0.1406,6.136275,2.521,0.0
+fdc_2747664,"Radicchio, raw",USDA Foundation Foods,26.3679,1.30875,0.1431,4.96125,2.114,8.076
+fdc_2747665,"Radishes, red, raw",USDA Foundation Foods,19.60045,0.65625,0.08313,4.05682,1.314,51.16
+fdc_2747674,"Turnips, raw",USDA Foundation Foods,33.9816,0.953125,0.1188,7.274975,1.915,12.8
+fdc_2747676,"Watermelon, seedless, rind only, raw",USDA Foundation Foods,19.419,0.53125,0.07,4.166,1.535,3.763
+fdc_2768188,"Alaska Pollock, raw",USDA Foundation Foods,78.4785,17.33,0.9925,0.0565,0.0,114.8

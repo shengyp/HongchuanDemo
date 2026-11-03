@@ -1,0 +1,2530 @@
+{
+  "source": "USDA FoodData Central / Foundation Foods",
+  "source_file": "FoodData_Central_csv.zip",
+  "sha256": "9c7aa735d052a537853eaa9b8e63f6f5136fa81f7b1a24f81185af2669587766",
+  "selection": "仅保留六项营养齐全的 Foundation Foods 主食物记录；不填补缺失值。能量优先 2048，其次 1008、2047。",
+  "foundation_count": 469,
+  "complete_count": 180,
+  "records": [
+    {
+      "fdc_id": "321358",
+      "name": "Hummus, commercial",
+      "publication_date": "2019-04-01",
+      "per_100g": {
+        "protein_g": 7.35,
+        "fat_g": 17.1,
+        "carbs_g": 14.9,
+        "fiber_g": 5.4,
+        "sodium_mg": 438.0,
+        "energy_kcal": 229.0
+      },
+      "energy_nutrient_id": "2048"
+    },
+    {
+      "fdc_id": "321360",
+      "name": "Tomatoes, grape, raw",
+      "publication_date": "2019-04-01",
+      "per_100g": {
+        "protein_g": 0.83,
+        "fat_g": 0.63,
+        "carbs_g": 5.51,
+        "fiber_g": 2.1,
+        "sodium_mg": 6.0,
+        "energy_kcal": 27.0
+      },
+      "energy_nutrient_id": "2048"
+    },
+    {
+      "fdc_id": "321900",
+      "name": "Broccoli, raw",
+      "publication_date": "2019-04-01",
+      "per_100g": {
+        "protein_g": 2.57,
+        "fat_g": 0.34,
+        "carbs_g": 6.29,
+        "fiber_g": 2.4,
+        "sodium_mg": 36.0,
+        "energy_kcal": 32.0
+      },
+      "energy_nutrient_id": "1008"
+    },
+    {
+      "fdc_id": "323294",
+      "name": "Nuts, almonds, dry roasted, with salt added",
+      "publication_date": "2019-04-01",
+      "per_100g": {
+        "protein_g": 20.4,
+        "fat_g": 57.8,
+        "carbs_g": 16.2,
+        "fiber_g": 11.0,
+        "sodium_mg": 256.0,
+        "energy_kcal": 621.0
+      },
+      "energy_nutrient_id": "2048"
+    },
+    {
+      "fdc_id": "323505",
+      "name": "Kale, raw",
+      "publication_date": "2019-04-01",
+      "per_100g": {
+        "protein_g": 2.92,
+        "fat_g": 1.49,
+        "carbs_g": 4.42,
+        "fiber_g": 4.1,
+        "sodium_mg": 53.0,
+        "energy_kcal": 35.0
+      },
+      "energy_nutrient_id": "2048"
+    },
+    {
+      "fdc_id": "324038",
+      "name": "Sauce, salsa, ready-to-serve",
+      "publication_date": "2019-04-01",
+      "per_100g": {
+        "protein_g": 1.44,
+        "fat_g": 0.19,
+        "carbs_g": 6.74,
+        "fiber_g": 1.8,
+        "sodium_mg": 656.0,
+        "energy_kcal": 29.0
+      },
+      "energy_nutrient_id": "1008"
+    },
+    {
+      "fdc_id": "324317",
+      "name": "Onion rings, breaded, par fried, frozen, prepared, heated in oven",
+      "publication_date": "2019-04-01",
+      "per_100g": {
+        "protein_g": 4.52,
+        "fat_g": 14.4,
+        "carbs_g": 36.3,
+        "fiber_g": 2.4,
+        "sodium_mg": 374.0,
+        "energy_kcal": 289.0
+      },
+      "energy_nutrient_id": "2048"
+    },
+    {
+      "fdc_id": "324653",
+      "name": "Pickles, cucumber, dill or kosher dill",
+      "publication_date": "2019-04-01",
+      "per_100g": {
+        "protein_g": 0.48,
+        "fat_g": 0.43,
+        "carbs_g": 1.99,
+        "fiber_g": 1.0,
+        "sodium_mg": 808.0,
+        "energy_kcal": 12.0
+      },
+      "energy_nutrient_id": "2048"
+    },
+    {
+      "fdc_id": "324860",
+      "name": "Peanut butter, smooth style, with salt",
+      "publication_date": "2019-04-01",
+      "per_100g": {
+        "protein_g": 22.5,
+        "fat_g": 51.1,
+        "carbs_g": 22.3,
+        "fiber_g": 4.8,
+        "sodium_mg": 429.0,
+        "energy_kcal": 597.0
+      },
+      "energy_nutrient_id": "2048"
+    },
+    {
+      "fdc_id": "325287",
+      "name": "Grapefruit juice, white, canned or bottled, unsweetened",
+      "publication_date": "2019-04-01",
+      "per_100g": {
+        "protein_g": 0.55,
+        "fat_g": 0.7,
+        "carbs_g": 7.59,
+        "fiber_g": 0.2,
+        "sodium_mg": 1.0,
+        "energy_kcal": 37.0
+      },
+      "energy_nutrient_id": "2048"
+    },
+    {
+      "fdc_id": "325430",
+      "name": "Peaches, yellow, raw",
+      "publication_date": "2019-04-01",
+      "per_100g": {
+        "protein_g": 0.91,
+        "fat_g": 0.27,
+        "carbs_g": 10.1,
+        "fiber_g": 1.5,
+        "sodium_mg": 13.0,
+        "energy_kcal": 42.0
+      },
+      "energy_nutrient_id": "2048"
+    },
+    {
+      "fdc_id": "325524",
+      "name": "Seeds, sunflower seed kernels, dry roasted, with salt added",
+      "publication_date": "2019-04-01",
+      "per_100g": {
+        "protein_g": 21.0,
+        "fat_g": 56.1,
+        "carbs_g": 17.1,
+        "fiber_g": 10.3,
+        "sodium_mg": 532.0,
+        "energy_kcal": 612.0
+      },
+      "energy_nutrient_id": "2048"
+    },
+    {
+      "fdc_id": "325871",
+      "name": "Bread, white, commercially prepared",
+      "publication_date": "2019-04-01",
+      "per_100g": {
+        "protein_g": 9.43,
+        "fat_g": 3.59,
+        "carbs_g": 49.2,
+        "fiber_g": 2.3,
+        "sodium_mg": 477.0,
+        "energy_kcal": 270.0
+      },
+      "energy_nutrient_id": "2048"
+    },
+    {
+      "fdc_id": "326458",
+      "name": "Carrots, frozen, unprepared (Includes foods for USDA's Food Distribution Program)",
+      "publication_date": "2019-04-01",
+      "per_100g": {
+        "protein_g": 0.81,
+        "fat_g": 0.47,
+        "carbs_g": 7.92,
+        "fiber_g": 3.2,
+        "sodium_mg": 66.0,
+        "energy_kcal": 37.0
+      },
+      "energy_nutrient_id": "1008"
+    },
+    {
+      "fdc_id": "326698",
+      "name": "Mustard, prepared, yellow",
+      "publication_date": "2019-04-01",
+      "per_100g": {
+        "protein_g": 4.25,
+        "fat_g": 3.38,
+        "carbs_g": 5.3,
+        "fiber_g": 4.3,
+        "sodium_mg": 1100.0,
+        "energy_kcal": 61.0
+      },
+      "energy_nutrient_id": "2048"
+    },
+    {
+      "fdc_id": "326905",
+      "name": "Figs, dried, uncooked",
+      "publication_date": "2019-04-01",
+      "per_100g": {
+        "protein_g": 3.3,
+        "fat_g": 0.92,
+        "carbs_g": 63.9,
+        "fiber_g": 9.8,
+        "sodium_mg": 10.0,
+        "energy_kcal": 249.0
+      },
+      "energy_nutrient_id": "1008"
+    },
+    {
+      "fdc_id": "327046",
+      "name": "Kiwifruit, green, raw",
+      "publication_date": "2019-04-01",
+      "per_100g": {
+        "protein_g": 1.06,
+        "fat_g": 0.44,
+        "carbs_g": 14.0,
+        "fiber_g": 3.0,
+        "sodium_mg": 5.0,
+        "energy_kcal": 58.0
+      },
+      "energy_nutrient_id": "2048"
+    },
+    {
+      "fdc_id": "327198",
+      "name": "Melons, cantaloupe, raw",
+      "publication_date": "2019-04-01",
+      "per_100g": {
+        "protein_g": 0.82,
+        "fat_g": 0.18,
+        "carbs_g": 8.16,
+        "fiber_g": 0.8,
+        "sodium_mg": 30.0,
+        "energy_kcal": 34.0
+      },
+      "energy_nutrient_id": "1008"
+    },
+    {
+      "fdc_id": "327357",
+      "name": "Nectarines, raw",
+      "publication_date": "2019-04-01",
+      "per_100g": {
+        "protein_g": 1.06,
+        "fat_g": 0.28,
+        "carbs_g": 9.18,
+        "fiber_g": 1.5,
+        "sodium_mg": 13.0,
+        "energy_kcal": 39.0
+      },
+      "energy_nutrient_id": "2048"
+    },
+    {
+      "fdc_id": "327501",
+      "name": "Oranges, raw, navels (Includes foods for USDA's Food Distribution Program)",
+      "publication_date": "2019-04-01",
+      "per_100g": {
+        "protein_g": 0.91,
+        "fat_g": 0.15,
+        "carbs_g": 11.8,
+        "fiber_g": 2.0,
+        "sodium_mg": 9.0,
+        "energy_kcal": 47.0
+      },
+      "energy_nutrient_id": "1008"
+    },
+    {
+      "fdc_id": "327699",
+      "name": "Strawberries, raw",
+      "publication_date": "2019-04-01",
+      "per_100g": {
+        "protein_g": 0.64,
+        "fat_g": 0.22,
+        "carbs_g": 7.63,
+        "fiber_g": 1.8,
+        "sodium_mg": 10.0,
+        "energy_kcal": 31.0
+      },
+      "energy_nutrient_id": "1008"
+    },
+    {
+      "fdc_id": "330415",
+      "name": "Yogurt, Greek, strawberry, nonfat",
+      "publication_date": "2019-04-01",
+      "per_100g": {
+        "protein_g": 8.06,
+        "fat_g": 0.15,
+        "carbs_g": 12.2,
+        "fiber_g": 0.6,
+        "sodium_mg": 32.0,
+        "energy_kcal": 83.0
+      },
+      "energy_nutrient_id": "2048"
+    },
+    {
+      "fdc_id": "332282",
+      "name": "Sauce, pasta, spaghetti/marinara, ready-to-serve",
+      "publication_date": "2019-04-01",
+      "per_100g": {
+        "protein_g": 1.41,
+        "fat_g": 1.48,
+        "carbs_g": 8.05,
+        "fiber_g": 1.8,
+        "sodium_mg": 419.0,
+        "energy_kcal": 45.0
+      },
+      "energy_nutrient_id": "2048"
+    },
+    {
+      "fdc_id": "332597",
+      "name": "Pears, raw, bartlett (Includes foods for USDA's Food Distribution Program)",
+      "publication_date": "2019-04-01",
+      "per_100g": {
+        "protein_g": 0.38,
+        "fat_g": 0.16,
+        "carbs_g": 15.1,
+        "fiber_g": 3.1,
+        "sodium_mg": 7.0,
+        "energy_kcal": 57.0
+      },
+      "energy_nutrient_id": "1008"
+    },
+    {
+      "fdc_id": "332791",
+      "name": "Olives, green, Manzanilla, stuffed with pimiento",
+      "publication_date": "2019-04-01",
+      "per_100g": {
+        "protein_g": 1.15,
+        "fat_g": 12.9,
+        "carbs_g": 4.96,
+        "fiber_g": 4.0,
+        "sodium_mg": 1620.0,
+        "energy_kcal": 130.0
+      },
+      "energy_nutrient_id": "2048"
+    },
+    {
+      "fdc_id": "333008",
+      "name": "Cookies, oatmeal, soft, with raisins",
+      "publication_date": "2019-04-01",
+      "per_100g": {
+        "protein_g": 5.79,
+        "fat_g": 14.3,
+        "carbs_g": 69.6,
+        "fiber_g": 3.3,
+        "sodium_mg": 314.0,
+        "energy_kcal": 430.0
+      },
+      "energy_nutrient_id": "1008"
+    },
+    {
+      "fdc_id": "334462",
+      "name": "Restaurant, Chinese, sweet and sour pork",
+      "publication_date": "2019-04-01",
+      "per_100g": {
+        "protein_g": 8.88,
+        "fat_g": 13.6,
+        "carbs_g": 25.5,
+        "fiber_g": 1.0,
+        "sodium_mg": 304.0,
+        "energy_kcal": 260.0
+      },
+      "energy_nutrient_id": "1008"
+    },
+    {
+      "fdc_id": "334628",
+      "name": "Restaurant, Latino, tamale, pork",
+      "publication_date": "2019-04-01",
+      "per_100g": {
+        "protein_g": 7.38,
+        "fat_g": 9.04,
+        "carbs_g": 15.8,
+        "fiber_g": 2.4,
+        "sodium_mg": 473.0,
+        "energy_kcal": 174.0
+      },
+      "energy_nutrient_id": "1008"
+    },
+    {
+      "fdc_id": "334720",
+      "name": "Restaurant, Latino, pupusas con frijoles (pupusas, bean)",
+      "publication_date": "2019-04-01",
+      "per_100g": {
+        "protein_g": 5.59,
+        "fat_g": 9.01,
+        "carbs_g": 31.5,
+        "fiber_g": 5.8,
+        "sodium_mg": 305.0,
+        "energy_kcal": 229.0
+      },
+      "energy_nutrient_id": "1008"
+    },
+    {
+      "fdc_id": "335240",
+      "name": "Bread, whole-wheat, commercially prepared",
+      "publication_date": "2019-04-01",
+      "per_100g": {
+        "protein_g": 12.3,
+        "fat_g": 3.55,
+        "carbs_g": 43.1,
+        "fiber_g": 6.0,
+        "sodium_mg": 450.0,
+        "energy_kcal": 254.0
+      },
+      "energy_nutrient_id": "1008"
+    },
+    {
+      "fdc_id": "746764",
+      "name": "Carrots, frozen, unprepared",
+      "publication_date": "2019-12-16",
+      "per_100g": {
+        "protein_g": 0.81,
+        "fat_g": 0.47,
+        "carbs_g": 7.92,
+        "fiber_g": 3.2,
+        "sodium_mg": 66.0,
+        "energy_kcal": 37.0
+      },
+      "energy_nutrient_id": "2048"
+    },
+    {
+      "fdc_id": "746768",
+      "name": "Figs, dried, uncooked",
+      "publication_date": "2019-12-16",
+      "per_100g": {
+        "protein_g": 3.3,
+        "fat_g": 0.92,
+        "carbs_g": 63.9,
+        "fiber_g": 9.8,
+        "sodium_mg": 10.0,
+        "energy_kcal": 249.0
+      },
+      "energy_nutrient_id": "2048"
+    },
+    {
+      "fdc_id": "746770",
+      "name": "Melons, cantaloupe, raw",
+      "publication_date": "2019-12-16",
+      "per_100g": {
+        "protein_g": 0.82,
+        "fat_g": 0.18,
+        "carbs_g": 8.16,
+        "fiber_g": 0.8,
+        "sodium_mg": 30.0,
+        "energy_kcal": 34.0
+      },
+      "energy_nutrient_id": "2048"
+    },
+    {
+      "fdc_id": "746771",
+      "name": "Oranges, raw, navels",
+      "publication_date": "2019-12-16",
+      "per_100g": {
+        "protein_g": 0.91,
+        "fat_g": 0.15,
+        "carbs_g": 11.8,
+        "fiber_g": 2.0,
+        "sodium_mg": 9.0,
+        "energy_kcal": 47.0
+      },
+      "energy_nutrient_id": "2048"
+    },
+    {
+      "fdc_id": "746773",
+      "name": "Pears, raw, bartlett",
+      "publication_date": "2019-12-16",
+      "per_100g": {
+        "protein_g": 0.38,
+        "fat_g": 0.16,
+        "carbs_g": 15.1,
+        "fiber_g": 3.1,
+        "sodium_mg": 7.0,
+        "energy_kcal": 57.0
+      },
+      "energy_nutrient_id": "2048"
+    },
+    {
+      "fdc_id": "746774",
+      "name": "Restaurant, Chinese, sweet and sour pork",
+      "publication_date": "2019-12-16",
+      "per_100g": {
+        "protein_g": 8.88,
+        "fat_g": 13.6,
+        "carbs_g": 25.5,
+        "fiber_g": 1.0,
+        "sodium_mg": 304.0,
+        "energy_kcal": 260.0
+      },
+      "energy_nutrient_id": "1008"
+    },
+    {
+      "fdc_id": "746777",
+      "name": "Sauce, salsa, ready-to-serve",
+      "publication_date": "2019-12-16",
+      "per_100g": {
+        "protein_g": 1.44,
+        "fat_g": 0.19,
+        "carbs_g": 6.74,
+        "fiber_g": 1.8,
+        "sodium_mg": 656.0,
+        "energy_kcal": 29.0
+      },
+      "energy_nutrient_id": "2048"
+    },
+    {
+      "fdc_id": "747447",
+      "name": "Broccoli, raw",
+      "publication_date": "2019-12-16",
+      "per_100g": {
+        "protein_g": 2.57,
+        "fat_g": 0.34,
+        "carbs_g": 6.27,
+        "fiber_g": 2.4,
+        "sodium_mg": 36.0,
+        "energy_kcal": 32.0
+      },
+      "energy_nutrient_id": "2048"
+    },
+    {
+      "fdc_id": "747448",
+      "name": "Strawberries, raw",
+      "publication_date": "2019-12-16",
+      "per_100g": {
+        "protein_g": 0.64,
+        "fat_g": 0.22,
+        "carbs_g": 7.63,
+        "fiber_g": 1.8,
+        "sodium_mg": 10.0,
+        "energy_kcal": 31.0
+      },
+      "energy_nutrient_id": "2048"
+    },
+    {
+      "fdc_id": "748967",
+      "name": "Eggs, Grade A, Large, egg whole",
+      "publication_date": "2019-12-16",
+      "per_100g": {
+        "protein_g": 12.4,
+        "fat_g": 9.96,
+        "carbs_g": 0.96,
+        "fiber_g": 0.0,
+        "sodium_mg": 129.0,
+        "energy_kcal": 147.0
+      },
+      "energy_nutrient_id": "2048"
+    },
+    {
+      "fdc_id": "790018",
+      "name": "Flour, wheat, all-purpose, unenriched, unbleached",
+      "publication_date": "2020-04-01",
+      "per_100g": {
+        "protein_g": 12.0,
+        "fat_g": 1.7,
+        "carbs_g": 74.6,
+        "fiber_g": 3.0,
+        "sodium_mg": 2.0,
+        "energy_kcal": 370.0
+      },
+      "energy_nutrient_id": "2048"
+    },
+    {
+      "fdc_id": "790085",
+      "name": "Flour, whole wheat, unenriched",
+      "publication_date": "2020-04-01",
+      "per_100g": {
+        "protein_g": 15.1,
+        "fat_g": 2.73,
+        "carbs_g": 71.2,
+        "fiber_g": 10.6,
+        "sodium_mg": 3.0,
+        "energy_kcal": 346.0
+      },
+      "energy_nutrient_id": "2048"
+    },
+    {
+      "fdc_id": "790214",
+      "name": "Flour, rice, white, unenriched",
+      "publication_date": "2020-04-01",
+      "per_100g": {
+        "protein_g": 6.94,
+        "fat_g": 1.3,
+        "carbs_g": 79.8,
+        "fiber_g": 0.5,
+        "sodium_mg": 5.0,
+        "energy_kcal": 369.0
+      },
+      "energy_nutrient_id": "2048"
+    },
+    {
+      "fdc_id": "790276",
+      "name": "Flour, corn, yellow, fine meal, enriched",
+      "publication_date": "2020-04-01",
+      "per_100g": {
+        "protein_g": 6.2,
+        "fat_g": 1.74,
+        "carbs_g": 80.8,
+        "fiber_g": 4.3,
+        "sodium_mg": 0.0,
+        "energy_kcal": 372.0
+      },
+      "energy_nutrient_id": "2048"
+    },
+    {
+      "fdc_id": "790577",
+      "name": "Onions, red, raw",
+      "publication_date": "2020-04-01",
+      "per_100g": {
+        "protein_g": 0.94,
+        "fat_g": 0.1,
+        "carbs_g": 9.93,
+        "fiber_g": 2.2,
+        "sodium_mg": 1.0,
+        "energy_kcal": 42.0
+      },
+      "energy_nutrient_id": "2048"
+    },
+    {
+      "fdc_id": "790646",
+      "name": "Onions, yellow, raw",
+      "publication_date": "2020-04-01",
+      "per_100g": {
+        "protein_g": 0.83,
+        "fat_g": 0.05,
+        "carbs_g": 8.61,
+        "fiber_g": 1.9,
+        "sodium_mg": 1.0,
+        "energy_kcal": 36.0
+      },
+      "energy_nutrient_id": "2048"
+    },
+    {
+      "fdc_id": "790991",
+      "name": "Bananas, ripe and slightly ripe, raw",
+      "publication_date": "2020-04-01",
+      "per_100g": {
+        "protein_g": 0.74,
+        "fat_g": 0.29,
+        "carbs_g": 23.0,
+        "fiber_g": 1.7,
+        "sodium_mg": 0.0,
+        "energy_kcal": 97.0
+      },
+      "energy_nutrient_id": "1008"
+    },
+    {
+      "fdc_id": "1104962",
+      "name": "Onions, white, raw",
+      "publication_date": "2020-10-30",
+      "per_100g": {
+        "protein_g": 0.89,
+        "fat_g": 0.13,
+        "carbs_g": 7.68,
+        "fiber_g": 1.2,
+        "sodium_mg": 2.0,
+        "energy_kcal": 33.0
+      },
+      "energy_nutrient_id": "2048"
+    },
+    {
+      "fdc_id": "1105314",
+      "name": "Bananas, ripe and slightly ripe, raw",
+      "publication_date": "2020-04-01",
+      "per_100g": {
+        "protein_g": 0.74,
+        "fat_g": 0.29,
+        "carbs_g": 23.0,
+        "fiber_g": 1.7,
+        "sodium_mg": 0.0,
+        "energy_kcal": 88.0
+      },
+      "energy_nutrient_id": "2048"
+    },
+    {
+      "fdc_id": "1105430",
+      "name": "Apples, red delicious, with skin, raw",
+      "publication_date": "2020-10-30",
+      "per_100g": {
+        "protein_g": 0.19,
+        "fat_g": 0.21,
+        "carbs_g": 14.8,
+        "fiber_g": 2.0,
+        "sodium_mg": 0.0,
+        "energy_kcal": 56.0
+      },
+      "energy_nutrient_id": "2048"
+    },
+    {
+      "fdc_id": "1105547",
+      "name": "Apples, honeycrisp, with skin, raw",
+      "publication_date": "2020-10-30",
+      "per_100g": {
+        "protein_g": 0.1,
+        "fat_g": 0.1,
+        "carbs_g": 14.7,
+        "fiber_g": 1.7,
+        "sodium_mg": 0.0,
+        "energy_kcal": 54.0
+      },
+      "energy_nutrient_id": "2048"
+    },
+    {
+      "fdc_id": "1105664",
+      "name": "Apples, granny smith, with skin, raw",
+      "publication_date": "2020-10-30",
+      "per_100g": {
+        "protein_g": 0.27,
+        "fat_g": 0.14,
+        "carbs_g": 14.2,
+        "fiber_g": 2.5,
+        "sodium_mg": 0.0,
+        "energy_kcal": 53.0
+      },
+      "energy_nutrient_id": "2048"
+    },
+    {
+      "fdc_id": "1105781",
+      "name": "Apples, gala, with skin, raw",
+      "publication_date": "2020-10-30",
+      "per_100g": {
+        "protein_g": 0.13,
+        "fat_g": 0.15,
+        "carbs_g": 14.8,
+        "fiber_g": 2.1,
+        "sodium_mg": 0.0,
+        "energy_kcal": 55.0
+      },
+      "energy_nutrient_id": "2048"
+    },
+    {
+      "fdc_id": "1105897",
+      "name": "Apples, fuji, with skin, raw",
+      "publication_date": "2020-10-30",
+      "per_100g": {
+        "protein_g": 0.15,
+        "fat_g": 0.16,
+        "carbs_g": 15.7,
+        "fiber_g": 2.1,
+        "sodium_mg": 1.0,
+        "energy_kcal": 58.0
+      },
+      "energy_nutrient_id": "2048"
+    },
+    {
+      "fdc_id": "1750337",
+      "name": "Soy milk, unsweetened, plain, shelf stable",
+      "publication_date": "2021-04-28",
+      "per_100g": {
+        "protein_g": 3.546875,
+        "fat_g": 2.125,
+        "carbs_g": 1.293125,
+        "fiber_g": 0.0,
+        "sodium_mg": 34.28,
+        "energy_kcal": 38.485
+      },
+      "energy_nutrient_id": "2048"
+    },
+    {
+      "fdc_id": "1750338",
+      "name": "Almond milk, unsweetened, plain, shelf stable",
+      "publication_date": "2021-04-28",
+      "per_100g": {
+        "protein_g": 0.5546875,
+        "fat_g": 1.221,
+        "carbs_g": 0.3371125,
+        "fiber_g": 0.0,
+        "sodium_mg": 59.58,
+        "energy_kcal": 14.5562
+      },
+      "energy_nutrient_id": "2048"
+    },
+    {
+      "fdc_id": "1750339",
+      "name": "Apples, red delicious, with skin, raw",
+      "publication_date": "2020-10-30",
+      "per_100g": {
+        "protein_g": 0.1875,
+        "fat_g": 0.2125,
+        "carbs_g": 14.7817,
+        "fiber_g": 2.043,
+        "sodium_mg": 0.0,
+        "energy_kcal": 55.622745
+      },
+      "energy_nutrient_id": "2048"
+    },
+    {
+      "fdc_id": "1750340",
+      "name": "Apples, fuji, with skin, raw",
+      "publication_date": "2020-10-30",
+      "per_100g": {
+        "protein_g": 0.1484375,
+        "fat_g": 0.1625,
+        "carbs_g": 15.6511625,
+        "fiber_g": 2.075,
+        "sodium_mg": 1.013,
+        "energy_kcal": 58.20306
+      },
+      "energy_nutrient_id": "2048"
+    },
+    {
+      "fdc_id": "1750341",
+      "name": "Apples, gala, with skin, raw",
+      "publication_date": "2020-10-30",
+      "per_100g": {
+        "protein_g": 0.1328125,
+        "fat_g": 0.15,
+        "carbs_g": 14.7680875,
+        "fiber_g": 2.109,
+        "sodium_mg": 0.2788,
+        "energy_kcal": 54.866865
+      },
+      "energy_nutrient_id": "2048"
+    },
+    {
+      "fdc_id": "1750342",
+      "name": "Apples, granny smith, with skin, raw",
+      "publication_date": "2020-10-30",
+      "per_100g": {
+        "protein_g": 0.265625,
+        "fat_g": 0.1375,
+        "carbs_g": 14.142975,
+        "fiber_g": 2.514,
+        "sodium_mg": 0.0,
+        "energy_kcal": 52.958085
+      },
+      "energy_nutrient_id": "2048"
+    },
+    {
+      "fdc_id": "1750343",
+      "name": "Apples, honeycrisp, with skin, raw",
+      "publication_date": "2020-10-30",
+      "per_100g": {
+        "protein_g": 0.1015625,
+        "fat_g": 0.1,
+        "carbs_g": 14.6819375,
+        "fiber_g": 1.721,
+        "sodium_mg": 0.1375,
+        "energy_kcal": 54.033225
+      },
+      "energy_nutrient_id": "2048"
+    },
+    {
+      "fdc_id": "1750352",
+      "name": "Spinach, baby",
+      "publication_date": "2021-04-28",
+      "per_100g": {
+        "protein_g": 2.851875,
+        "fat_g": 0.6188,
+        "carbs_g": 2.406325,
+        "fiber_g": 1.558,
+        "sodium_mg": 111.4,
+        "energy_kcal": 20.72851125
+      },
+      "energy_nutrient_id": "2048"
+    },
+    {
+      "fdc_id": "1750353",
+      "name": "Spinach, mature",
+      "publication_date": "2021-04-28",
+      "per_100g": {
+        "protein_g": 2.90625,
+        "fat_g": 0.6044,
+        "carbs_g": 2.64135,
+        "fiber_g": 1.588,
+        "sodium_mg": 106.6,
+        "energy_kcal": 21.5796975
+      },
+      "energy_nutrient_id": "2048"
+    },
+    {
+      "fdc_id": "1750354",
+      "name": "Tomato, roma",
+      "publication_date": "2021-04-28",
+      "per_100g": {
+        "protein_g": 0.695625,
+        "fat_g": 0.425,
+        "carbs_g": 3.837475,
+        "fiber_g": 0.9706,
+        "sodium_mg": 0.0,
+        "energy_kcal": 18.95436075
+      },
+      "energy_nutrient_id": "2048"
+    },
+    {
+      "fdc_id": "1999626",
+      "name": "Mushroom, lion's mane",
+      "publication_date": "2021-10-28",
+      "per_100g": {
+        "protein_g": 2.5,
+        "fat_g": 0.2563,
+        "carbs_g": 7.5897,
+        "fiber_g": 4.376,
+        "sodium_mg": 0.3363,
+        "energy_kcal": 35.107387
+      },
+      "energy_nutrient_id": "2048"
+    },
+    {
+      "fdc_id": "1999627",
+      "name": "Mushroom, oyster",
+      "publication_date": "2021-10-28",
+      "per_100g": {
+        "protein_g": 2.89875,
+        "fat_g": 0.1875,
+        "carbs_g": 6.94125,
+        "fiber_g": 2.85,
+        "sodium_mg": 1.128,
+        "energy_kcal": 33.31965
+      },
+      "energy_nutrient_id": "2048"
+    },
+    {
+      "fdc_id": "1999628",
+      "name": "Mushrooms, shiitake",
+      "publication_date": "2021-10-28",
+      "per_100g": {
+        "protein_g": 2.414375,
+        "fat_g": 0.195,
+        "carbs_g": 8.170625,
+        "fiber_g": 4.166,
+        "sodium_mg": 0.9363,
+        "energy_kcal": 36.3915875
+      },
+      "energy_nutrient_id": "2048"
+    },
+    {
+      "fdc_id": "1999629",
+      "name": "Mushrooms, white button",
+      "publication_date": "2021-10-28",
+      "per_100g": {
+        "protein_g": 2.890625,
+        "fat_g": 0.3708,
+        "carbs_g": 4.079375,
+        "fiber_g": 1.717,
+        "sodium_mg": 6.443,
+        "energy_kcal": 24.8732585
+      },
+      "energy_nutrient_id": "2048"
+    },
+    {
+      "fdc_id": "1999630",
+      "name": "Soy milk, unsweetened, plain, shelf stable",
+      "publication_date": "2021-10-28",
+      "per_100g": {
+        "protein_g": 3.546875,
+        "fat_g": 2.125,
+        "carbs_g": 1.293125,
+        "fiber_g": 0.0,
+        "sodium_mg": 34.28,
+        "energy_kcal": 38.485
+      },
+      "energy_nutrient_id": "2048"
+    },
+    {
+      "fdc_id": "1999631",
+      "name": "Almond milk, unsweetened, plain, shelf stable",
+      "publication_date": "2021-10-28",
+      "per_100g": {
+        "protein_g": 0.5546875,
+        "fat_g": 1.221,
+        "carbs_g": 0.3371125,
+        "fiber_g": 0.0,
+        "sodium_mg": 59.58,
+        "energy_kcal": 14.5562
+      },
+      "energy_nutrient_id": "2048"
+    },
+    {
+      "fdc_id": "1999632",
+      "name": "Spinach, baby",
+      "publication_date": "2021-10-28",
+      "per_100g": {
+        "protein_g": 2.851875,
+        "fat_g": 0.6188,
+        "carbs_g": 2.406325,
+        "fiber_g": 1.558,
+        "sodium_mg": 111.4,
+        "energy_kcal": 20.72851125
+      },
+      "energy_nutrient_id": "2048"
+    },
+    {
+      "fdc_id": "1999633",
+      "name": "Spinach, mature",
+      "publication_date": "2021-10-28",
+      "per_100g": {
+        "protein_g": 2.90625,
+        "fat_g": 0.6044,
+        "carbs_g": 2.64135,
+        "fiber_g": 1.588,
+        "sodium_mg": 106.6,
+        "energy_kcal": 21.5796975
+      },
+      "energy_nutrient_id": "2048"
+    },
+    {
+      "fdc_id": "1999634",
+      "name": "Tomato, roma",
+      "publication_date": "2021-10-28",
+      "per_100g": {
+        "protein_g": 0.695625,
+        "fat_g": 0.425,
+        "carbs_g": 3.837475,
+        "fiber_g": 0.9706,
+        "sodium_mg": 0.0,
+        "energy_kcal": 18.95436075
+      },
+      "energy_nutrient_id": "2048"
+    },
+    {
+      "fdc_id": "2003586",
+      "name": "Flour, 00",
+      "publication_date": "2021-10-28",
+      "per_100g": {
+        "protein_g": 11.4,
+        "fat_g": 1.52,
+        "carbs_g": 74.4462,
+        "fiber_g": 2.656,
+        "sodium_mg": 0.0,
+        "energy_kcal": 365.610744
+      },
+      "energy_nutrient_id": "2048"
+    },
+    {
+      "fdc_id": "2003587",
+      "name": "Flour, spelt, whole grain",
+      "publication_date": "2021-10-28",
+      "per_100g": {
+        "protein_g": 14.475,
+        "fat_g": 2.543,
+        "carbs_g": 70.723,
+        "fiber_g": 9.339,
+        "sodium_mg": 0.0,
+        "energy_kcal": 340.5831
+      },
+      "energy_nutrient_id": "2048"
+    },
+    {
+      "fdc_id": "2003588",
+      "name": "Flour, semolina, coarse and semi-coarse",
+      "publication_date": "2021-10-28",
+      "per_100g": {
+        "protein_g": 11.73125,
+        "fat_g": 1.597,
+        "carbs_g": 73.82345,
+        "fiber_g": 3.216,
+        "sodium_mg": 0.0,
+        "energy_kcal": 365.0310665
+      },
+      "energy_nutrient_id": "2048"
+    },
+    {
+      "fdc_id": "2003589",
+      "name": "Flour, semolina, fine",
+      "publication_date": "2021-10-28",
+      "per_100g": {
+        "protein_g": 13.33125,
+        "fat_g": 1.838,
+        "carbs_g": 71.98575,
+        "fiber_g": 3.683,
+        "sodium_mg": 0.4263,
+        "energy_kcal": 365.9569125
+      },
+      "energy_nutrient_id": "2048"
+    },
+    {
+      "fdc_id": "2003598",
+      "name": "Mushroom, portabella",
+      "publication_date": "2021-10-28",
+      "per_100g": {
+        "protein_g": 2.75,
+        "fat_g": 0.3117,
+        "carbs_g": 4.6583,
+        "fiber_g": 1.879,
+        "sodium_mg": 5.312,
+        "energy_kcal": 26.024813
+      },
+      "energy_nutrient_id": "2048"
+    },
+    {
+      "fdc_id": "2003599",
+      "name": "Mushroom, king oyster",
+      "publication_date": "2021-10-28",
+      "per_100g": {
+        "protein_g": 2.40625,
+        "fat_g": 0.3075,
+        "carbs_g": 8.50065,
+        "fiber_g": 3.009,
+        "sodium_mg": 0.7713,
+        "energy_kcal": 38.460412
+      },
+      "energy_nutrient_id": "2048"
+    },
+    {
+      "fdc_id": "2003600",
+      "name": "Mushroom, enoki",
+      "publication_date": "2021-10-28",
+      "per_100g": {
+        "protein_g": 2.416875,
+        "fat_g": 0.245,
+        "carbs_g": 8.141425,
+        "fiber_g": 2.945,
+        "sodium_mg": 0.4167,
+        "energy_kcal": 36.7150215
+      },
+      "energy_nutrient_id": "2048"
+    },
+    {
+      "fdc_id": "2003601",
+      "name": "Mushroom, crimini",
+      "publication_date": "2021-10-28",
+      "per_100g": {
+        "protein_g": 3.09375,
+        "fat_g": 0.1967,
+        "carbs_g": 4.01455,
+        "fiber_g": 1.781,
+        "sodium_mg": 4.572,
+        "energy_kcal": 23.722638
+      },
+      "energy_nutrient_id": "2048"
+    },
+    {
+      "fdc_id": "2003602",
+      "name": "Mushroom, maitake",
+      "publication_date": "2021-10-28",
+      "per_100g": {
+        "protein_g": 2.203125,
+        "fat_g": 0.265,
+        "carbs_g": 6.604375,
+        "fiber_g": 3.071,
+        "sodium_mg": 0.345,
+        "energy_kcal": 30.9734625
+      },
+      "energy_nutrient_id": "2048"
+    },
+    {
+      "fdc_id": "2003603",
+      "name": "Mushroom, beech",
+      "publication_date": "2021-10-28",
+      "per_100g": {
+        "protein_g": 2.18,
+        "fat_g": 0.4494,
+        "carbs_g": 6.7593,
+        "fiber_g": 3.139,
+        "sodium_mg": 0.8913,
+        "energy_kcal": 32.995442
+      },
+      "energy_nutrient_id": "2048"
+    },
+    {
+      "fdc_id": "2003604",
+      "name": "Mushroom, pioppini",
+      "publication_date": "2021-10-28",
+      "per_100g": {
+        "protein_g": 3.5,
+        "fat_g": 0.24,
+        "carbs_g": 5.7637,
+        "fiber_g": 2.753,
+        "sodium_mg": 0.0,
+        "energy_kcal": 31.236476
+      },
+      "energy_nutrient_id": "2048"
+    },
+    {
+      "fdc_id": "2257044",
+      "name": "Soy milk, sweetened, plain, refrigerated",
+      "publication_date": "2022-04-28",
+      "per_100g": {
+        "protein_g": 2.776875,
+        "fat_g": 1.957,
+        "carbs_g": 2.996125,
+        "fiber_g": 0.0,
+        "sodium_mg": 39.44,
+        "energy_kcal": 40.705
+      },
+      "energy_nutrient_id": "2047"
+    },
+    {
+      "fdc_id": "2257045",
+      "name": "Almond milk, unsweetened, plain, refrigerated",
+      "publication_date": "2022-04-28",
+      "per_100g": {
+        "protein_g": 0.65625,
+        "fat_g": 1.558,
+        "carbs_g": 0.67075,
+        "fiber_g": 0.0,
+        "sodium_mg": 59.22,
+        "energy_kcal": 19.33
+      },
+      "energy_nutrient_id": "2047"
+    },
+    {
+      "fdc_id": "2257046",
+      "name": "Oat milk, unsweetened, plain, refrigerated",
+      "publication_date": "2022-04-28",
+      "per_100g": {
+        "protein_g": 0.796875,
+        "fat_g": 2.749,
+        "carbs_g": 5.100325,
+        "fiber_g": 0.0,
+        "sodium_mg": 41.98,
+        "energy_kcal": 48.3298
+      },
+      "energy_nutrient_id": "2047"
+    },
+    {
+      "fdc_id": "2258586",
+      "name": "Carrots, mature, raw",
+      "publication_date": "2022-04-28",
+      "per_100g": {
+        "protein_g": 0.94125,
+        "fat_g": 0.3506,
+        "carbs_g": 10.26755,
+        "fiber_g": 3.095,
+        "sodium_mg": 86.65,
+        "energy_kcal": 44.978589
+      },
+      "energy_nutrient_id": "2048"
+    },
+    {
+      "fdc_id": "2258587",
+      "name": "Carrots, baby, raw",
+      "publication_date": "2022-04-28",
+      "per_100g": {
+        "protein_g": 0.805,
+        "fat_g": 0.1375,
+        "carbs_g": 9.0787,
+        "fiber_g": 2.694,
+        "sodium_mg": 62.66,
+        "energy_kcal": 38.250983
+      },
+      "energy_nutrient_id": "2048"
+    },
+    {
+      "fdc_id": "2258588",
+      "name": "Peppers, bell, green, raw",
+      "publication_date": "2022-04-28",
+      "per_100g": {
+        "protein_g": 0.715,
+        "fat_g": 0.1063,
+        "carbs_g": 4.7781,
+        "fiber_g": 0.9419,
+        "sodium_mg": 0.0,
+        "energy_kcal": 19.692148
+      },
+      "energy_nutrient_id": "2048"
+    },
+    {
+      "fdc_id": "2258589",
+      "name": "Peppers, bell, yellow, raw",
+      "publication_date": "2022-04-28",
+      "per_100g": {
+        "protein_g": 0.819375,
+        "fat_g": 0.1211,
+        "carbs_g": 6.601725,
+        "fiber_g": 1.071,
+        "sodium_mg": 0.0,
+        "energy_kcal": 26.58104025
+      },
+      "energy_nutrient_id": "2048"
+    },
+    {
+      "fdc_id": "2258590",
+      "name": "Peppers, bell, red, raw",
+      "publication_date": "2022-04-28",
+      "per_100g": {
+        "protein_g": 0.895625,
+        "fat_g": 0.1256,
+        "carbs_g": 6.653175,
+        "fiber_g": 1.158,
+        "sodium_mg": 0.0,
+        "energy_kcal": 26.98843175
+      },
+      "energy_nutrient_id": "2048"
+    },
+    {
+      "fdc_id": "2258591",
+      "name": "Peppers, bell, orange, raw",
+      "publication_date": "2022-04-28",
+      "per_100g": {
+        "protein_g": 0.881875,
+        "fat_g": 0.1556,
+        "carbs_g": 6.703125,
+        "fiber_g": 0.9674,
+        "sodium_mg": 0.0,
+        "energy_kcal": 27.38430325
+      },
+      "energy_nutrient_id": "2048"
+    },
+    {
+      "fdc_id": "2261420",
+      "name": "Flour, almond",
+      "publication_date": "2022-04-28",
+      "per_100g": {
+        "protein_g": 26.24375,
+        "fat_g": 50.23,
+        "carbs_g": 16.24925,
+        "fiber_g": 9.266,
+        "sodium_mg": 0.8944,
+        "energy_kcal": 577.62536
+      },
+      "energy_nutrient_id": "2048"
+    },
+    {
+      "fdc_id": "2261421",
+      "name": "Flour, oat, whole grain",
+      "publication_date": "2022-04-28",
+      "per_100g": {
+        "protein_g": 13.16875,
+        "fat_g": 6.309,
+        "carbs_g": 69.91725,
+        "fiber_g": 10.5,
+        "sodium_mg": 3.619,
+        "energy_kcal": 386.429275
+      },
+      "energy_nutrient_id": "2048"
+    },
+    {
+      "fdc_id": "2261422",
+      "name": "Flour, potato",
+      "publication_date": "2022-04-28",
+      "per_100g": {
+        "protein_g": 8.1125,
+        "fat_g": 0.9513,
+        "carbs_g": 79.9422,
+        "fiber_g": 5.401,
+        "sodium_mg": 47.66,
+        "energy_kcal": 352.682197
+      },
+      "energy_nutrient_id": "2048"
+    },
+    {
+      "fdc_id": "2262072",
+      "name": "Peanut butter, creamy",
+      "publication_date": "2022-04-28",
+      "per_100g": {
+        "protein_g": 23.99124,
+        "fat_g": 49.43,
+        "carbs_g": 22.70376,
+        "fiber_g": 6.323,
+        "sodium_mg": 220.7,
+        "energy_kcal": 589.383006
+      },
+      "energy_nutrient_id": "2048"
+    },
+    {
+      "fdc_id": "2262073",
+      "name": "Sesame butter, creamy",
+      "publication_date": "2022-04-28",
+      "per_100g": {
+        "protein_g": 19.7054,
+        "fat_g": 62.4,
+        "carbs_g": 14.179,
+        "fiber_g": 8.372,
+        "sodium_mg": 63.63,
+        "energy_kcal": 648.374268
+      },
+      "energy_nutrient_id": "2048"
+    },
+    {
+      "fdc_id": "2262074",
+      "name": "Almond butter, creamy",
+      "publication_date": "2022-04-28",
+      "per_100g": {
+        "protein_g": 20.78734,
+        "fat_g": 53.04,
+        "carbs_g": 21.23666,
+        "fiber_g": 9.718,
+        "sodium_mg": 0.9963,
+        "energy_kcal": 602.510076
+      },
+      "energy_nutrient_id": "2048"
+    },
+    {
+      "fdc_id": "2262075",
+      "name": "Flaxseed, ground",
+      "publication_date": "2022-04-28",
+      "per_100g": {
+        "protein_g": 18.0359,
+        "fat_g": 37.28,
+        "carbs_g": 34.3551,
+        "fiber_g": 23.13,
+        "sodium_mg": 36.74,
+        "energy_kcal": 514.44343
+      },
+      "energy_nutrient_id": "2048"
+    },
+    {
+      "fdc_id": "2346392",
+      "name": "Nuts, pine nuts, raw",
+      "publication_date": "2022-10-28",
+      "per_100g": {
+        "protein_g": 15.7039,
+        "fat_g": 61.27,
+        "carbs_g": 18.5921,
+        "fiber_g": 3.941,
+        "sodium_mg": 0.0,
+        "energy_kcal": 642.99228
+      },
+      "energy_nutrient_id": "2048"
+    },
+    {
+      "fdc_id": "2346393",
+      "name": "Nuts, almonds, whole, raw",
+      "publication_date": "2022-10-28",
+      "per_100g": {
+        "protein_g": 21.45038,
+        "fat_g": 51.09,
+        "carbs_g": 20.03462,
+        "fiber_g": 10.78,
+        "sodium_mg": 0.0,
+        "energy_kcal": 583.597022
+      },
+      "energy_nutrient_id": "2048"
+    },
+    {
+      "fdc_id": "2346394",
+      "name": "Nuts, walnuts, English, halves, raw",
+      "publication_date": "2022-10-28",
+      "per_100g": {
+        "protein_g": 14.5644,
+        "fat_g": 69.74,
+        "carbs_g": 10.9096,
+        "fiber_g": 5.21,
+        "sodium_mg": 0.0,
+        "energy_kcal": 678.66434
+      },
+      "energy_nutrient_id": "2048"
+    },
+    {
+      "fdc_id": "2346395",
+      "name": "Nuts, pecans, halves, raw",
+      "publication_date": "2022-10-28",
+      "per_100g": {
+        "protein_g": 9.9587,
+        "fat_g": 73.28,
+        "carbs_g": 12.6993,
+        "fiber_g": 5.793,
+        "sodium_mg": 0.0,
+        "energy_kcal": 699.59644
+      },
+      "energy_nutrient_id": "2048"
+    },
+    {
+      "fdc_id": "2346398",
+      "name": "Pineapple, raw",
+      "publication_date": "2022-10-28",
+      "per_100g": {
+        "protein_g": 0.4609375,
+        "fat_g": 0.2113,
+        "carbs_g": 14.0914625,
+        "fiber_g": 0.9346,
+        "sodium_mg": 0.0,
+        "energy_kcal": 54.046596
+      },
+      "energy_nutrient_id": "2048"
+    },
+    {
+      "fdc_id": "2346400",
+      "name": "Beans, snap, green, raw",
+      "publication_date": "2022-10-28",
+      "per_100g": {
+        "protein_g": 1.96875,
+        "fat_g": 0.275,
+        "carbs_g": 7.41245,
+        "fiber_g": 3.011,
+        "sodium_mg": 0.0,
+        "energy_kcal": 33.5679465
+      },
+      "energy_nutrient_id": "2048"
+    },
+    {
+      "fdc_id": "2512371",
+      "name": "Flour, amaranth",
+      "publication_date": "2023-04-20",
+      "per_100g": {
+        "protein_g": 13.2093,
+        "fat_g": 6.236,
+        "carbs_g": 68.7787,
+        "fiber_g": 7.209,
+        "sodium_mg": 0.0,
+        "energy_kcal": 377.9609
+      },
+      "energy_nutrient_id": "2048"
+    },
+    {
+      "fdc_id": "2512372",
+      "name": "Flour, quinoa",
+      "publication_date": "2023-04-20",
+      "per_100g": {
+        "protein_g": 11.92235,
+        "fat_g": 6.601,
+        "carbs_g": 69.52465,
+        "fiber_g": 6.295,
+        "sodium_mg": 6.321,
+        "energy_kcal": 378.394015
+      },
+      "energy_nutrient_id": "2048"
+    },
+    {
+      "fdc_id": "2512373",
+      "name": "Flour, sorghum",
+      "publication_date": "2023-04-20",
+      "per_100g": {
+        "protein_g": 8.27277,
+        "fat_g": 3.586,
+        "carbs_g": 77.39123,
+        "fiber_g": 6.019,
+        "sodium_mg": 0.0,
+        "energy_kcal": 363.8590417
+      },
+      "energy_nutrient_id": "2048"
+    },
+    {
+      "fdc_id": "2512374",
+      "name": "Flour, buckwheat",
+      "publication_date": "2023-04-20",
+      "per_100g": {
+        "protein_g": 8.88492,
+        "fat_g": 2.484,
+        "carbs_g": 75.01808,
+        "fiber_g": 10.35,
+        "sodium_mg": 0.0,
+        "energy_kcal": 334.3016028
+      },
+      "energy_nutrient_id": "2048"
+    },
+    {
+      "fdc_id": "2512375",
+      "name": "Flour, rye",
+      "publication_date": "2023-04-20",
+      "per_100g": {
+        "protein_g": 8.3952,
+        "fat_g": 1.908,
+        "carbs_g": 77.1618,
+        "fiber_g": 13.68,
+        "sodium_mg": 0.0,
+        "energy_kcal": 350.962038
+      },
+      "energy_nutrient_id": "2048"
+    },
+    {
+      "fdc_id": "2512376",
+      "name": "Flour, barley",
+      "publication_date": "2023-04-20",
+      "per_100g": {
+        "protein_g": 8.72168,
+        "fat_g": 2.45,
+        "carbs_g": 77.39832,
+        "fiber_g": 12.79,
+        "sodium_mg": 20.33,
+        "energy_kcal": 357.191828
+      },
+      "energy_nutrient_id": "2048"
+    },
+    {
+      "fdc_id": "2512377",
+      "name": "Flour, cassava",
+      "publication_date": "2023-04-20",
+      "per_100g": {
+        "protein_g": 0.918225,
+        "fat_g": 0.4938,
+        "carbs_g": 87.312975,
+        "fiber_g": 4.834,
+        "sodium_mg": 13.08,
+        "energy_kcal": 358.55706075
+      },
+      "energy_nutrient_id": "2048"
+    },
+    {
+      "fdc_id": "2512378",
+      "name": "Buckwheat, whole grain",
+      "publication_date": "2023-04-20",
+      "per_100g": {
+        "protein_g": 11.06534,
+        "fat_g": 3.039,
+        "carbs_g": 71.13066,
+        "fiber_g": 4.046,
+        "sodium_mg": 0.0,
+        "energy_kcal": 331.6005206
+      },
+      "energy_nutrient_id": "2048"
+    },
+    {
+      "fdc_id": "2512379",
+      "name": "Millet, whole grain",
+      "publication_date": "2023-04-20",
+      "per_100g": {
+        "protein_g": 10.02177,
+        "fat_g": 4.194,
+        "carbs_g": 74.44623,
+        "fiber_g": 2.619,
+        "sodium_mg": 0.0,
+        "energy_kcal": 380.6064975
+      },
+      "energy_nutrient_id": "2048"
+    },
+    {
+      "fdc_id": "2512380",
+      "name": "Rice, brown, long grain, unenriched, raw",
+      "publication_date": "2023-04-20",
+      "per_100g": {
+        "protein_g": 7.25305,
+        "fat_g": 3.306,
+        "carbs_g": 76.68795,
+        "fiber_g": 3.021,
+        "sodium_mg": 0.0,
+        "energy_kcal": 368.3584745
+      },
+      "energy_nutrient_id": "2048"
+    },
+    {
+      "fdc_id": "2512381",
+      "name": "Rice, white, long grain, unenriched, raw",
+      "publication_date": "2023-04-20",
+      "per_100g": {
+        "protein_g": 7.03885,
+        "fat_g": 1.033,
+        "carbs_g": 80.31315,
+        "fiber_g": 0.1488,
+        "sodium_mg": 0.4625,
+        "energy_kcal": 369.637321
+      },
+      "energy_nutrient_id": "2048"
+    },
+    {
+      "fdc_id": "2515373",
+      "name": "Nuts, brazilnuts, raw",
+      "publication_date": "2023-04-20",
+      "per_100g": {
+        "protein_g": 15.03684,
+        "fat_g": 57.43,
+        "carbs_g": 21.64216,
+        "fiber_g": 5.984,
+        "sodium_mg": 0.0,
+        "energy_kcal": 620.950526
+      },
+      "energy_nutrient_id": "2048"
+    },
+    {
+      "fdc_id": "2515374",
+      "name": "Nuts, cashew nuts, raw",
+      "publication_date": "2023-04-20",
+      "per_100g": {
+        "protein_g": 17.4423,
+        "fat_g": 38.86,
+        "carbs_g": 36.2887,
+        "fiber_g": 4.104,
+        "sodium_mg": 4.759,
+        "energy_kcal": 533.47799
+      },
+      "energy_nutrient_id": "2048"
+    },
+    {
+      "fdc_id": "2515375",
+      "name": "Nuts, hazelnuts or filberts, raw",
+      "publication_date": "2023-04-20",
+      "per_100g": {
+        "protein_g": 13.4938,
+        "fat_g": 53.49,
+        "carbs_g": 26.5012,
+        "fiber_g": 8.41,
+        "sodium_mg": 0.0,
+        "energy_kcal": 602.39467
+      },
+      "energy_nutrient_id": "2048"
+    },
+    {
+      "fdc_id": "2515376",
+      "name": "Peanuts, raw",
+      "publication_date": "2023-04-20",
+      "per_100g": {
+        "protein_g": 23.205,
+        "fat_g": 43.28,
+        "carbs_g": 26.498,
+        "fiber_g": 8.014,
+        "sodium_mg": 1.493,
+        "energy_kcal": 550.62181
+      },
+      "energy_nutrient_id": "2048"
+    },
+    {
+      "fdc_id": "2515377",
+      "name": "Flour, chestnut",
+      "publication_date": "2023-04-20",
+      "per_100g": {
+        "protein_g": 5.28675,
+        "fat_g": 4.636,
+        "carbs_g": 80.45025,
+        "fiber_g": 8.711,
+        "sodium_mg": 0.0,
+        "energy_kcal": 384.58086
+      },
+      "energy_nutrient_id": "2048"
+    },
+    {
+      "fdc_id": "2515378",
+      "name": "Nuts, macadamia nuts, raw",
+      "publication_date": "2023-04-20",
+      "per_100g": {
+        "protein_g": 7.7857,
+        "fat_g": 64.93,
+        "carbs_g": 24.0943,
+        "fiber_g": 7.563,
+        "sodium_mg": 0.0,
+        "energy_kcal": 668.54428
+      },
+      "energy_nutrient_id": "2048"
+    },
+    {
+      "fdc_id": "2515379",
+      "name": "Nuts, pistachio nuts, raw",
+      "publication_date": "2023-04-20",
+      "per_100g": {
+        "protein_g": 20.5057,
+        "fat_g": 45.02,
+        "carbs_g": 27.6943,
+        "fiber_g": 6.969,
+        "sodium_mg": 0.0,
+        "energy_kcal": 560.68798
+      },
+      "energy_nutrient_id": "2048"
+    },
+    {
+      "fdc_id": "2515380",
+      "name": "Seeds, pumpkin seeds (pepitas), raw",
+      "publication_date": "2023-04-20",
+      "per_100g": {
+        "protein_g": 29.9079,
+        "fat_g": 40.03,
+        "carbs_g": 18.6751,
+        "fiber_g": 5.079,
+        "sodium_mg": 0.0,
+        "energy_kcal": 514.83917
+      },
+      "energy_nutrient_id": "2048"
+    },
+    {
+      "fdc_id": "2515381",
+      "name": "Seeds, sunflower seed, kernel, raw",
+      "publication_date": "2023-04-20",
+      "per_100g": {
+        "protein_g": 18.8733,
+        "fat_g": 48.44,
+        "carbs_g": 24.5007,
+        "fiber_g": 7.215,
+        "sodium_mg": 0.0,
+        "energy_kcal": 570.651
+      },
+      "energy_nutrient_id": "2048"
+    },
+    {
+      "fdc_id": "2515382",
+      "name": "Flour, coconut",
+      "publication_date": "2023-04-20",
+      "per_100g": {
+        "protein_g": 16.1385,
+        "fat_g": 15.28,
+        "carbs_g": 58.9025,
+        "fiber_g": 34.24,
+        "sodium_mg": 46.94,
+        "energy_kcal": 423.62737
+      },
+      "energy_nutrient_id": "2048"
+    },
+    {
+      "fdc_id": "2685568",
+      "name": "Squash, summer, green, zucchini, includes skin, raw",
+      "publication_date": "2024-04-18",
+      "per_100g": {
+        "protein_g": 0.984375,
+        "fat_g": 0.205,
+        "carbs_g": 3.27,
+        "fiber_g": 0.7525,
+        "sodium_mg": 0.0,
+        "energy_kcal": 16.0
+      },
+      "energy_nutrient_id": "2048"
+    },
+    {
+      "fdc_id": "2685569",
+      "name": "Squash, summer, yellow, includes skin, raw",
+      "publication_date": "2024-04-18",
+      "per_100g": {
+        "protein_g": 0.890625,
+        "fat_g": 0.135,
+        "carbs_g": 4.39,
+        "fiber_g": 0.9563,
+        "sodium_mg": 0.0,
+        "energy_kcal": 19.0
+      },
+      "energy_nutrient_id": "2048"
+    },
+    {
+      "fdc_id": "2685570",
+      "name": "Squash, winter, butternut, raw",
+      "publication_date": "2024-04-18",
+      "per_100g": {
+        "protein_g": 1.14875,
+        "fat_g": 0.1675,
+        "carbs_g": 10.50745,
+        "fiber_g": 1.959,
+        "sodium_mg": 0.0,
+        "energy_kcal": 41.7165215
+      },
+      "energy_nutrient_id": "2048"
+    },
+    {
+      "fdc_id": "2685571",
+      "name": "Squash, winter, acorn, raw",
+      "publication_date": "2024-04-18",
+      "per_100g": {
+        "protein_g": 1.25,
+        "fat_g": 0.1825,
+        "carbs_g": 10.48,
+        "fiber_g": 2.635,
+        "sodium_mg": 0.0,
+        "energy_kcal": 41.991125
+      },
+      "energy_nutrient_id": "2048"
+    },
+    {
+      "fdc_id": "2685572",
+      "name": "Cabbage, bok choy, raw",
+      "publication_date": "2024-04-18",
+      "per_100g": {
+        "protein_g": 1.02375,
+        "fat_g": 0.2338,
+        "carbs_g": 3.51495,
+        "fiber_g": 1.259,
+        "sodium_mg": 14.27,
+        "energy_kcal": 17.0032275
+      },
+      "energy_nutrient_id": "2048"
+    },
+    {
+      "fdc_id": "2685573",
+      "name": "Cauliflower, raw",
+      "publication_date": "2024-04-18",
+      "per_100g": {
+        "protein_g": 1.640625,
+        "fat_g": 0.2375,
+        "carbs_g": 4.723075,
+        "fiber_g": 1.948,
+        "sodium_mg": 20.0,
+        "energy_kcal": 22.85237775
+      },
+      "energy_nutrient_id": "2048"
+    },
+    {
+      "fdc_id": "2685574",
+      "name": "Collards, raw",
+      "publication_date": "2024-04-18",
+      "per_100g": {
+        "protein_g": 2.96875,
+        "fat_g": 0.77,
+        "carbs_g": 7.02225,
+        "fiber_g": 3.816,
+        "sodium_mg": 18.41,
+        "energy_kcal": 38.7580825
+      },
+      "energy_nutrient_id": "2048"
+    },
+    {
+      "fdc_id": "2685575",
+      "name": "Brussels sprouts, raw",
+      "publication_date": "2024-04-18",
+      "per_100g": {
+        "protein_g": 3.984375,
+        "fat_g": 0.565,
+        "carbs_g": 9.615625,
+        "fiber_g": 4.785,
+        "sodium_mg": 25.74,
+        "energy_kcal": 48.77870625
+      },
+      "energy_nutrient_id": "2048"
+    },
+    {
+      "fdc_id": "2685576",
+      "name": "Beets, raw",
+      "publication_date": "2024-04-18",
+      "per_100g": {
+        "protein_g": 1.6875,
+        "fat_g": 0.3025,
+        "carbs_g": 8.787,
+        "fiber_g": 3.119,
+        "sodium_mg": 111.6,
+        "energy_kcal": 40.965255
+      },
+      "energy_nutrient_id": "2048"
+    },
+    {
+      "fdc_id": "2685577",
+      "name": "Eggplant, raw",
+      "publication_date": "2024-04-18",
+      "per_100g": {
+        "protein_g": 0.851875,
+        "fat_g": 0.12,
+        "carbs_g": 5.399325,
+        "fiber_g": 2.448,
+        "sodium_mg": 0.4425,
+        "energy_kcal": 22.35856525
+      },
+      "energy_nutrient_id": "2048"
+    },
+    {
+      "fdc_id": "2685578",
+      "name": "Tomatoes, whole, canned, solids and liquids, with salt added",
+      "publication_date": "2024-04-18",
+      "per_100g": {
+        "protein_g": 0.8675,
+        "fat_g": 0.2063,
+        "carbs_g": 4.2874,
+        "fiber_g": 0.8725,
+        "sodium_mg": 111.5,
+        "energy_kcal": 19.149449
+      },
+      "energy_nutrient_id": "2048"
+    },
+    {
+      "fdc_id": "2685579",
+      "name": "Tomato, sauce, canned, with salt added",
+      "publication_date": "2024-04-18",
+      "per_100g": {
+        "protein_g": 1.351875,
+        "fat_g": 0.3825,
+        "carbs_g": 6.331625,
+        "fiber_g": 1.636,
+        "sodium_mg": 416.9,
+        "energy_kcal": 29.10400125
+      },
+      "energy_nutrient_id": "2048"
+    },
+    {
+      "fdc_id": "2685580",
+      "name": "Tomato, paste, canned, without salt added",
+      "publication_date": "2024-04-18",
+      "per_100g": {
+        "protein_g": 4.234375,
+        "fat_g": 0.7325,
+        "carbs_g": 20.188125,
+        "fiber_g": 4.704,
+        "sodium_mg": 61.15,
+        "energy_kcal": 88.53450625
+      },
+      "energy_nutrient_id": "2048"
+    },
+    {
+      "fdc_id": "2685581",
+      "name": "Tomatoes, crushed, canned",
+      "publication_date": "2024-04-18",
+      "per_100g": {
+        "protein_g": 1.4375,
+        "fat_g": 0.3975,
+        "carbs_g": 7.137,
+        "fiber_g": 1.944,
+        "sodium_mg": 139.8,
+        "energy_kcal": 32.313665
+      },
+      "energy_nutrient_id": "2048"
+    },
+    {
+      "fdc_id": "2685582",
+      "name": "Tomato, puree, canned",
+      "publication_date": "2024-04-18",
+      "per_100g": {
+        "protein_g": 1.578125,
+        "fat_g": 0.265,
+        "carbs_g": 8.036875,
+        "fiber_g": 1.971,
+        "sodium_mg": 29.36,
+        "energy_kcal": 34.76031875
+      },
+      "energy_nutrient_id": "2048"
+    },
+    {
+      "fdc_id": "2710815",
+      "name": "Apricot, with skin, raw",
+      "publication_date": "2024-10-31",
+      "per_100g": {
+        "protein_g": 0.96125,
+        "fat_g": 0.405,
+        "carbs_g": 10.23875,
+        "fiber_g": 1.51,
+        "sodium_mg": 0.0,
+        "energy_kcal": 43.47915
+      },
+      "energy_nutrient_id": "2048"
+    },
+    {
+      "fdc_id": "2710817",
+      "name": "Plantains, ripe, raw",
+      "publication_date": "2024-10-31",
+      "per_100g": {
+        "protein_g": 1.15625,
+        "fat_g": 0.8933,
+        "carbs_g": 30.95215,
+        "fiber_g": 2.125,
+        "sodium_mg": 0.0,
+        "energy_kcal": 122.789661
+      },
+      "energy_nutrient_id": "2048"
+    },
+    {
+      "fdc_id": "2710818",
+      "name": "Plantains, underripe, raw",
+      "publication_date": "2024-10-31",
+      "per_100g": {
+        "protein_g": 1.229375,
+        "fat_g": 0.685,
+        "carbs_g": 33.587325,
+        "fiber_g": 2.53,
+        "sodium_mg": 0.0,
+        "energy_kcal": 144.50803225
+      },
+      "energy_nutrient_id": "2048"
+    },
+    {
+      "fdc_id": "2710820",
+      "name": "Bulgur, dry, raw",
+      "publication_date": "2024-10-31",
+      "per_100g": {
+        "protein_g": 11.75625,
+        "fat_g": 2.421,
+        "carbs_g": 75.88175,
+        "fiber_g": 11.72,
+        "sodium_mg": 2.18,
+        "energy_kcal": 349.3017225
+      },
+      "energy_nutrient_id": "2048"
+    },
+    {
+      "fdc_id": "2710821",
+      "name": "Wild rice, dry, raw",
+      "publication_date": "2024-10-31",
+      "per_100g": {
+        "protein_g": 12.7875,
+        "fat_g": 1.704,
+        "carbs_g": 75.6695,
+        "fiber_g": 4.26,
+        "sodium_mg": 1.014,
+        "energy_kcal": 358.55263
+      },
+      "energy_nutrient_id": "2048"
+    },
+    {
+      "fdc_id": "2710822",
+      "name": "Arugula, baby, raw",
+      "publication_date": "2024-10-31",
+      "per_100g": {
+        "protein_g": 1.64875,
+        "fat_g": 0.325,
+        "carbs_g": 5.36825,
+        "fiber_g": 2.28,
+        "sodium_mg": 86.93,
+        "energy_kcal": 25.9078525
+      },
+      "energy_nutrient_id": "2048"
+    },
+    {
+      "fdc_id": "2710823",
+      "name": "Asparagus, green, raw",
+      "publication_date": "2024-10-31",
+      "per_100g": {
+        "protein_g": 1.4375,
+        "fat_g": 0.2163,
+        "carbs_g": 5.1012,
+        "fiber_g": 1.883,
+        "sodium_mg": 2.46,
+        "energy_kcal": 23.529215
+      },
+      "energy_nutrient_id": "2048"
+    },
+    {
+      "fdc_id": "2710825",
+      "name": "Rice, black, unenriched, raw",
+      "publication_date": "2024-10-31",
+      "per_100g": {
+        "protein_g": 7.56875,
+        "fat_g": 3.438,
+        "carbs_g": 77.18825,
+        "fiber_g": 4.179,
+        "sodium_mg": 0.0,
+        "energy_kcal": 360.53871
+      },
+      "energy_nutrient_id": "2048"
+    },
+    {
+      "fdc_id": "2710826",
+      "name": "Corn, sweet, yellow and white kernels,  fresh, raw",
+      "publication_date": "2024-10-31",
+      "per_100g": {
+        "protein_g": 2.789375,
+        "fat_g": 1.626,
+        "carbs_g": 14.689625,
+        "fiber_g": 2.428,
+        "sodium_mg": 0.0,
+        "energy_kcal": 72.85765625
+      },
+      "energy_nutrient_id": "2048"
+    },
+    {
+      "fdc_id": "2710827",
+      "name": "Einkorn, grain, dry, raw",
+      "publication_date": "2024-10-31",
+      "per_100g": {
+        "protein_g": 15.11719,
+        "fat_g": 3.811,
+        "carbs_g": 68.65381,
+        "fiber_g": 8.913,
+        "sodium_mg": 0.0,
+        "energy_kcal": 345.6801839
+      },
+      "energy_nutrient_id": "2048"
+    },
+    {
+      "fdc_id": "2710828",
+      "name": "Farro, pearled, dry, raw",
+      "publication_date": "2024-10-31",
+      "per_100g": {
+        "protein_g": 12.63944,
+        "fat_g": 3.103,
+        "carbs_g": 72.13156,
+        "fiber_g": 7.31,
+        "sodium_mg": 0.845,
+        "energy_kcal": 344.0049964
+      },
+      "energy_nutrient_id": "2048"
+    },
+    {
+      "fdc_id": "2710829",
+      "name": "Fonio, grain, dry, raw",
+      "publication_date": "2024-10-31",
+      "per_100g": {
+        "protein_g": 7.16875,
+        "fat_g": 1.693,
+        "carbs_g": 81.30525,
+        "fiber_g": 2.197,
+        "sodium_mg": 2.967,
+        "energy_kcal": 376.8911025
+      },
+      "energy_nutrient_id": "2048"
+    },
+    {
+      "fdc_id": "2710830",
+      "name": "Khorasan, grain, dry, raw",
+      "publication_date": "2024-10-31",
+      "per_100g": {
+        "protein_g": 14.75573,
+        "fat_g": 2.8,
+        "carbs_g": 71.79427,
+        "fiber_g": 10.52,
+        "sodium_mg": 3.936,
+        "energy_kcal": 347.7914113
+      },
+      "energy_nutrient_id": "2048"
+    },
+    {
+      "fdc_id": "2710831",
+      "name": "Kiwifruit (kiwi), green, peeled, raw",
+      "publication_date": "2024-10-31",
+      "per_100g": {
+        "protein_g": 1.008125,
+        "fat_g": 0.64,
+        "carbs_g": 13.818075,
+        "fiber_g": 2.129,
+        "sodium_mg": 2.275,
+        "energy_kcal": 58.48917
+      },
+      "energy_nutrient_id": "2048"
+    },
+    {
+      "fdc_id": "2710832",
+      "name": "Mandarin, seedless, peeled, raw",
+      "publication_date": "2024-10-31",
+      "per_100g": {
+        "protein_g": 1.039375,
+        "fat_g": 0.4575,
+        "carbs_g": 13.421825,
+        "fiber_g": 1.328,
+        "sodium_mg": 0.0,
+        "energy_kcal": 55.640145
+      },
+      "energy_nutrient_id": "2048"
+    },
+    {
+      "fdc_id": "2710833",
+      "name": "Mango, Tommy Atkins, peeled, raw",
+      "publication_date": "2024-10-31",
+      "per_100g": {
+        "protein_g": 0.5625,
+        "fat_g": 0.5725,
+        "carbs_g": 15.265,
+        "fiber_g": 1.753,
+        "sodium_mg": 0.0,
+        "energy_kcal": 61.635825
+      },
+      "energy_nutrient_id": "2048"
+    },
+    {
+      "fdc_id": "2710834",
+      "name": "Mango, Ataulfo, peeled, raw",
+      "publication_date": "2024-10-31",
+      "per_100g": {
+        "protein_g": 0.6875,
+        "fat_g": 0.6813,
+        "carbs_g": 17.3962,
+        "fiber_g": 1.289,
+        "sodium_mg": 0.0,
+        "energy_kcal": 70.638801
+      },
+      "energy_nutrient_id": "2048"
+    },
+    {
+      "fdc_id": "2710835",
+      "name": "Corn flour, masa harina, white or yellow, dry, raw",
+      "publication_date": "2024-10-31",
+      "per_100g": {
+        "protein_g": 7.5625,
+        "fat_g": 4.34,
+        "carbs_g": 76.6895,
+        "fiber_g": 7.038,
+        "sodium_mg": 2.733,
+        "energy_kcal": 366.03011
+      },
+      "energy_nutrient_id": "2048"
+    },
+    {
+      "fdc_id": "2710836",
+      "name": "Pear, Anjou, green, with skin, raw",
+      "publication_date": "2024-10-31",
+      "per_100g": {
+        "protein_g": 0.3125,
+        "fat_g": 0.3713,
+        "carbs_g": 14.7674,
+        "fiber_g": 2.636,
+        "sodium_mg": 0.3975,
+        "energy_kcal": 57.320421
+      },
+      "energy_nutrient_id": "2048"
+    },
+    {
+      "fdc_id": "2710837",
+      "name": "Plum, black, with skin, raw",
+      "publication_date": "2024-10-31",
+      "per_100g": {
+        "protein_g": 0.578125,
+        "fat_g": 0.2825,
+        "carbs_g": 13.455575,
+        "fiber_g": 1.346,
+        "sodium_mg": 0.0,
+        "energy_kcal": 52.747095
+      },
+      "energy_nutrient_id": "2048"
+    },
+    {
+      "fdc_id": "2710838",
+      "name": "Rice, red, unenriched, dry, raw",
+      "publication_date": "2024-10-31",
+      "per_100g": {
+        "protein_g": 8.5625,
+        "fat_g": 3.44,
+        "carbs_g": 76.1545,
+        "fiber_g": 4.198,
+        "sodium_mg": 0.4375,
+        "energy_kcal": 359.99995
+      },
+      "energy_nutrient_id": "2048"
+    },
+    {
+      "fdc_id": "2710839",
+      "name": "Sorghum bran, white, unenriched, dry, raw",
+      "publication_date": "2024-10-31",
+      "per_100g": {
+        "protein_g": 11.16875,
+        "fat_g": 9.259,
+        "carbs_g": 68.69525,
+        "fiber_g": 34.95,
+        "sodium_mg": 2.915,
+        "energy_kcal": 364.50325
+      },
+      "energy_nutrient_id": "2048"
+    },
+    {
+      "fdc_id": "2710840",
+      "name": "Sorghum flour, white, pearled, unenriched, dry, raw",
+      "publication_date": "2024-10-31",
+      "per_100g": {
+        "protein_g": 10.2125,
+        "fat_g": 3.238,
+        "carbs_g": 73.5065,
+        "fiber_g": 3.299,
+        "sodium_mg": 0.0,
+        "energy_kcal": 349.558015
+      },
+      "energy_nutrient_id": "2048"
+    },
+    {
+      "fdc_id": "2710841",
+      "name": "Sorghum grain, white, pearled, unenriched, dry, raw",
+      "publication_date": "2024-10-31",
+      "per_100g": {
+        "protein_g": 10.25,
+        "fat_g": 3.265,
+        "carbs_g": 74.872,
+        "fiber_g": 3.916,
+        "sodium_mg": 0.0,
+        "energy_kcal": 338.38971
+      },
+      "energy_nutrient_id": "2048"
+    },
+    {
+      "fdc_id": "2710842",
+      "name": "Sorghum, whole grain, white, dry, raw",
+      "publication_date": "2024-10-31",
+      "per_100g": {
+        "protein_g": 10.08125,
+        "fat_g": 4.219,
+        "carbs_g": 73.57375,
+        "fiber_g": 8.274,
+        "sodium_mg": 0.3288,
+        "energy_kcal": 340.98918
+      },
+      "energy_nutrient_id": "2048"
+    },
+    {
+      "fdc_id": "2710843",
+      "name": "Plantains, overripe, raw",
+      "publication_date": "2024-10-31",
+      "per_100g": {
+        "protein_g": 1.166875,
+        "fat_g": 0.99,
+        "carbs_g": 29.191425,
+        "fiber_g": 1.792,
+        "sodium_mg": 0.0,
+        "energy_kcal": 117.29613
+      },
+      "energy_nutrient_id": "2048"
+    },
+    {
+      "fdc_id": "2747653",
+      "name": "Beet greens, raw",
+      "publication_date": "2025-12-18",
+      "per_100g": {
+        "protein_g": 1.609375,
+        "fat_g": 0.1438,
+        "carbs_g": 4.658825,
+        "fiber_g": 2.578,
+        "sodium_mg": 280.5,
+        "energy_kcal": 26.367
+      },
+      "energy_nutrient_id": "2047"
+    },
+    {
+      "fdc_id": "2747655",
+      "name": "Fennel, bulb, raw",
+      "publication_date": "2025-12-18",
+      "per_100g": {
+        "protein_g": 0.921875,
+        "fat_g": 0.14,
+        "carbs_g": 5.486225,
+        "fiber_g": 2.046,
+        "sodium_mg": 49.03,
+        "energy_kcal": 26.8924
+      },
+      "energy_nutrient_id": "2047"
+    },
+    {
+      "fdc_id": "2747659",
+      "name": "Parsnips, raw",
+      "publication_date": "2025-12-18",
+      "per_100g": {
+        "protein_g": 1.265625,
+        "fat_g": 0.5381,
+        "carbs_g": 19.292275,
+        "fiber_g": 5.351,
+        "sodium_mg": 0.4913,
+        "energy_kcal": 87.0745
+      },
+      "energy_nutrient_id": "2047"
+    },
+    {
+      "fdc_id": "2747660",
+      "name": "Peppers, banana or Hungarian wax, seeded, raw",
+      "publication_date": "2025-12-18",
+      "per_100g": {
+        "protein_g": 0.723125,
+        "fat_g": 0.1314,
+        "carbs_g": 4.966175,
+        "fiber_g": 1.79,
+        "sodium_mg": 0.0,
+        "energy_kcal": 23.9398
+      },
+      "energy_nutrient_id": "2047"
+    },
+    {
+      "fdc_id": "2747661",
+      "name": "Peppers, jalapeno, seeded, raw",
+      "publication_date": "2025-12-18",
+      "per_100g": {
+        "protein_g": 0.621125,
+        "fat_g": 0.1488,
+        "carbs_g": 5.075675,
+        "fiber_g": 1.725,
+        "sodium_mg": 0.0,
+        "energy_kcal": 24.1264
+      },
+      "energy_nutrient_id": "2047"
+    },
+    {
+      "fdc_id": "2747662",
+      "name": "Peppers, poblano, seeded, raw",
+      "publication_date": "2025-12-18",
+      "per_100g": {
+        "protein_g": 1.425625,
+        "fat_g": 0.1906,
+        "carbs_g": 5.143175,
+        "fiber_g": 2.07,
+        "sodium_mg": 0.0,
+        "energy_kcal": 27.9906
+      },
+      "energy_nutrient_id": "2047"
+    },
+    {
+      "fdc_id": "2747663",
+      "name": "Peppers, serrano, seeded, raw",
+      "publication_date": "2025-12-18",
+      "per_100g": {
+        "protein_g": 0.855625,
+        "fat_g": 0.1406,
+        "carbs_g": 6.136275,
+        "fiber_g": 2.521,
+        "sodium_mg": 0.0,
+        "energy_kcal": 29.233
+      },
+      "energy_nutrient_id": "2047"
+    },
+    {
+      "fdc_id": "2747664",
+      "name": "Radicchio, raw",
+      "publication_date": "2025-12-18",
+      "per_100g": {
+        "protein_g": 1.30875,
+        "fat_g": 0.1431,
+        "carbs_g": 4.96125,
+        "fiber_g": 2.114,
+        "sodium_mg": 8.076,
+        "energy_kcal": 26.3679
+      },
+      "energy_nutrient_id": "2047"
+    },
+    {
+      "fdc_id": "2747665",
+      "name": "Radishes, red, raw",
+      "publication_date": "2025-12-18",
+      "per_100g": {
+        "protein_g": 0.65625,
+        "fat_g": 0.08313,
+        "carbs_g": 4.05682,
+        "fiber_g": 1.314,
+        "sodium_mg": 51.16,
+        "energy_kcal": 19.60045
+      },
+      "energy_nutrient_id": "2047"
+    },
+    {
+      "fdc_id": "2747674",
+      "name": "Turnips, raw",
+      "publication_date": "2025-12-18",
+      "per_100g": {
+        "protein_g": 0.953125,
+        "fat_g": 0.1188,
+        "carbs_g": 7.274975,
+        "fiber_g": 1.915,
+        "sodium_mg": 12.8,
+        "energy_kcal": 33.9816
+      },
+      "energy_nutrient_id": "2047"
+    },
+    {
+      "fdc_id": "2747676",
+      "name": "Watermelon, seedless, rind only, raw",
+      "publication_date": "2025-12-18",
+      "per_100g": {
+        "protein_g": 0.53125,
+        "fat_g": 0.07,
+        "carbs_g": 4.166,
+        "fiber_g": 1.535,
+        "sodium_mg": 3.763,
+        "energy_kcal": 19.419
+      },
+      "energy_nutrient_id": "2047"
+    },
+    {
+      "fdc_id": "2768188",
+      "name": "Alaska Pollock, raw",
+      "publication_date": "2026-04-30",
+      "per_100g": {
+        "protein_g": 17.33,
+        "fat_g": 0.9925,
+        "carbs_g": 0.0565,
+        "fiber_g": 0.0,
+        "sodium_mg": 114.8,
+        "energy_kcal": 78.4785
+      },
+      "energy_nutrient_id": "2047"
+    }
+  ]
+}

@@ -1,0 +1,77 @@
+.kg-page{color:#18342d}.kg-page *{box-sizing:border-box}.kg-heading{display:flex;align-items:flex-end;justify-content:space-between;gap:24px;margin:0 0 24px}.kg-eyebrow{font-size:11px!important;letter-spacing:.2em;font-weight:800;color:#228c78!important;margin:0 0 9px!important}.kg-heading h2{font-size:30px;line-height:1.2;margin:0 0 8px}.kg-heading p{color:#667b75;margin:0}.kg-light-button,.kg-primary-button,.kg-search button,.kg-pagination button{cursor:pointer;font:inherit;border-radius:10px;font-weight:700}.kg-light-button{border:1px solid #cde2d9;background:#fff;color:#0e705f;padding:11px 17px;white-space:nowrap}.kg-upload,.kg-overview,.kg-insights,.kg-table-section{background:#fff;border:1px solid #dceae4;border-radius:18px;box-shadow:0 10px 32px rgba(22,66,51,.045);padding:26px;margin-bottom:22px}.kg-section-title{display:flex;gap:13px;align-items:flex-start}.kg-step{display:inline-grid;place-items:center;min-width:34px;height:34px;border-radius:10px;background:#e6f5ef;color:#0f826c;font-size:12px;font-weight:800}.kg-section-title h3{margin:0 0 4px;font-size:20px;color:#173c33}.kg-section-title p{margin:0;color:#758b83;font-size:13px}.kg-upload-grid{display:grid;grid-template-columns:minmax(260px,1.1fr) minmax(280px,1fr);gap:18px;margin:22px 0 15px}.kg-file-box{border:1.5px dashed #a9d3c4;border-radius:14px;background:#f7fcf9;min-height:188px;display:flex;flex-direction:column;align-items:center;justify-content:center;gap:7px;cursor:pointer;text-align:center;padding:15px;transition:.2s}.kg-file-box:hover{border-color:#188772;background:#f0f9f4}.kg-file-box input{position:absolute;width:1px;height:1px;opacity:0}.kg-upload-icon{width:40px;height:40px;border-radius:13px;background:#d9f1e6;color:#127b65;font-size:26px;line-height:35px}.kg-file-box strong{font-size:16px;max-width:100%;overflow-wrap:anywhere}.kg-file-box small{color:#789087}.kg-upload-fields{display:grid;grid-template-columns:1fr 1fr;gap:14px;align-content:start}.kg-upload-fields label,.kg-select-label{font-size:12px;font-weight:700;color:#4c695e}.kg-upload-fields input,.kg-select-label select,.kg-search input{display:block;width:100%;height:42px;margin-top:7px;border:1px solid #d5e4dc;border-radius:9px;background:#fff;padding:0 12px;color:#173c33;font:inherit;outline:0}.kg-upload-fields input:focus,.kg-select-label select:focus,.kg-search input:focus{border-color:#19a084;box-shadow:0 0 0 3px #dff4eb}.kg-primary-button{grid-column:1/-1;border:0;background:#0d806a;color:#fff;padding:12px 16px;text-align:left;display:flex;justify-content:space-between}.kg-primary-button:hover{background:#086e5a}.kg-primary-button:disabled{opacity:.6;cursor:wait}.kg-format{font-size:12px;color:#6b8279;margin:0;line-height:1.8}.kg-format code{background:#f0f7f2;color:#276b5a;border-radius:4px;padding:2px 4px}.kg-error,.kg-success{border-radius:9px;padding:10px 13px;margin:14px 0 0;font-size:13px}.kg-error{background:#fff1ef;color:#ae4636}.kg-success{background:#eaf8ee;color:#22734f}.kg-empty{border:1px dashed #c5d9ce;border-radius:18px;background:#f8fbf9;text-align:center;padding:52px 20px;color:#7a9185}.kg-empty span{font-size:42px;color:#31a586}.kg-empty h3{margin:8px 0;color:#254a3b}.kg-empty p{margin:0}.kg-overview-top,.kg-table-top{display:flex;justify-content:space-between;align-items:center;gap:18px}.kg-select-label{min-width:230px}.kg-select-label select{margin-top:3px}.kg-status{margin:22px 0 14px;display:flex;gap:12px;align-items:center;padding:15px 18px;border-radius:12px;background:#edf9f6;border:1px solid #c9eae0}.kg-status-dot{width:9px;height:9px;flex:none;border-radius:50%;background:#12a980;box-shadow:0 0 0 5px #d8f2e9}.kg-status div{display:flex;flex-direction:column;gap:3px}.kg-status strong{font-size:14px;color:#155e50}.kg-status small,.kg-status-date{font-size:12px;color:#6a897e}.kg-status-date{margin-left:auto;white-space:nowrap}.kg-stats{display:grid;grid-template-columns:repeat(4,1fr);gap:12px}.kg-stats article{border:1px solid #e0ece6;border-radius:12px;padding:18px 20px;display:flex;flex-direction:column;gap:6px;position:relative;overflow:hidden}.kg-stats article:before{content:"";position:absolute;left:0;top:0;bottom:0;width:3px;background:#21ae91}.kg-stats article span{color:#6a857a;font-size:12px}.kg-stats article strong{color:#124f45;font-size:29px;line-height:1.1}.kg-stats article small{color:#92a39b;font-size:11px}.kg-insight-grid{display:grid;grid-template-columns:1.2fr 1fr;gap:16px;margin-top:22px}.kg-chart-card,.kg-type-card{border:1px solid #e2ece6;border-radius:13px;padding:20px;background:#fcfefc}.kg-card-head{display:flex;align-items:center;justify-content:space-between;gap:12px}.kg-card-head span{font-size:10px;font-weight:800;color:#2c9b80;letter-spacing:.13em}.kg-card-head h4{font-size:17px;color:#204b3d;margin:4px 0}.kg-card-head>strong{font-size:12px;color:#20866d;background:#e7f6ed;border-radius:20px;padding:7px 10px;white-space:nowrap}.kg-card-head>small{color:#8aa198;font-size:11px}.kg-bars{height:170px;display:grid;grid-template-columns:repeat(5,1fr);gap:16px;margin-top:18px}.kg-bar-item{display:flex;flex-direction:column;align-items:center;gap:4px;font-size:11px;color:#8aa198}.kg-bar-count{font-weight:700;color:#286b5a}.kg-bar-track{height:125px;width:100%;max-width:50px;display:flex;align-items:flex-end;background:repeating-linear-gradient(to top,#e8f0eb 0,#e8f0eb 1px,transparent 1px,transparent 25%);border-bottom:1px solid #c9dcd2}.kg-bar-track div{width:100%;background:linear-gradient(180deg,#40b99b,#16866c);border-radius:6px 6px 0 0;min-height:3px}.kg-type-stack{display:grid;gap:14px}.kg-chips{display:flex;flex-wrap:wrap;gap:7px;margin-top:16px}.kg-chips span{display:inline-flex;gap:7px;align-items:center;border-radius:6px;background:#eaf7f2;color:#256b5b;padding:7px 9px;font-size:12px}.kg-chips b{font-weight:800}.kg-chips.relation span{background:#edf3f9;color:#42688c}.kg-search{display:flex;gap:8px;width:min(390px,100%);flex:0 0 auto}.kg-search input{margin:0;min-width:0;flex:1;width:auto}.kg-search button{border:0;background:#117c66;color:#fff;min-width:76px;height:42px;flex:0 0 auto;white-space:nowrap;display:inline-flex;align-items:center;justify-content:center;padding:0 16px}.kg-table-scroll{width:100%;overflow:auto;margin-top:22px}.kg-table-scroll table{width:100%;border-collapse:collapse;min-width:850px;text-align:left;font-size:12px}.kg-table-scroll th{background:#f1f7f4;color:#6b8178;font-weight:700;padding:13px 11px;white-space:nowrap}.kg-table-scroll td{padding:14px 11px;border-bottom:1px solid #e9f0eb;vertical-align:top;color:#496057}.kg-table-scroll td strong,.kg-table-scroll td small{display:block}.kg-table-scroll td strong{color:#24483c;font-size:13px}.kg-table-scroll td small{color:#91a39a;margin-top:3px}.kg-muted{color:#98aca2!important}.kg-relation{background:#eaf6ed;color:#28806b;border-radius:5px;padding:5px 7px;white-space:nowrap}.kg-confidence{font-weight:800;color:#15866d}.kg-evidence{max-width:290px;line-height:1.5}.kg-table-empty{text-align:center;padding:24px!important}.kg-pagination{display:flex;justify-content:space-between;align-items:center;margin-top:18px;color:#799087;font-size:12px}.kg-pagination div{display:flex;gap:7px}.kg-pagination button{background:#fff;border:1px solid #d5e4db;color:#40735f;padding:8px 11px}.kg-pagination button:disabled{opacity:.45;cursor:not-allowed}@media(max-width:900px){.kg-upload-grid,.kg-insight-grid{grid-template-columns:1fr}.kg-stats{grid-template-columns:repeat(2,1fr)}}@media(max-width:620px){.kg-heading,.kg-overview-top,.kg-table-top{align-items:stretch;flex-direction:column}.kg-upload,.kg-overview,.kg-insights,.kg-table-section{padding:18px}.kg-upload-fields{grid-template-columns:1fr}.kg-stats{gap:8px}.kg-stats article{padding:13px}.kg-stats article strong{font-size:24px}.kg-search input{min-width:0;flex:1}.kg-status-date{display:none}}
+
+@media(max-width:800px){.kg-table-top{align-items:stretch;flex-direction:column}.kg-search{width:100%}}
+
+.kg-datasets,.kg-foodcom-overview{background:#fff;border:1px solid #dceae4;border-radius:18px;box-shadow:0 10px 32px rgba(22,66,51,.045);padding:26px;margin-bottom:22px}
+.kg-required{color:#c14d43}
+.kg-dataset-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(250px,1fr));gap:12px;margin-top:20px}
+.kg-dataset-card{display:flex;flex-direction:column;gap:8px;text-align:left;width:100%;min-width:0;min-height:148px;padding:18px;border:1px solid #dce9e1;border-radius:14px;background:#fbfdfb;color:#244638;transition:border-color .15s,background .15s,box-shadow .15s}
+.kg-dataset-card:hover{border-color:#85c5aa;background:#f5fbf7}
+.kg-dataset-card.active{border-color:#24a27d;background:#eaf7ef;box-shadow:0 0 0 2px #24a27d21}
+.kg-dataset-top{display:flex;align-items:flex-start;justify-content:space-between;gap:10px}
+.kg-dataset-top strong{font-size:16px;line-height:1.4;overflow-wrap:anywhere}
+.kg-dataset-top em{flex:none;font-size:11px;color:#168266;font-style:normal;background:#dcf2e7;border-radius:20px;padding:4px 8px}
+.kg-dataset-kind{font-size:11px;font-weight:700;color:#23846b}
+.kg-dataset-meta{font-size:13px;color:#516d5e}
+.kg-dataset-card small{font-size:11px;color:#82958a;line-height:1.45;overflow-wrap:anywhere}
+.kg-rename{display:flex;align-items:end;gap:10px;flex-wrap:wrap;border-top:1px solid #e6eee8;margin-top:20px;padding-top:16px}
+.kg-rename label{font-size:12px;font-weight:700;color:#4c695e;flex:0 1 330px}
+.kg-rename input{display:block;width:100%;height:40px;margin-top:6px;border:1px solid #d5e4dc;border-radius:9px;padding:0 12px;color:#173c33;outline:0}
+.kg-rename input:focus{border-color:#19a084;box-shadow:0 0 0 3px #dff4eb}
+.kg-rename button{height:40px;border:0;border-radius:9px;padding:0 16px;background:#117c66;color:white;font-weight:700;white-space:nowrap}
+.kg-rename small{color:#819489;font-size:11px;align-self:center}
+.kg-foodcom-head{display:flex;justify-content:space-between;align-items:center;gap:18px}
+.kg-foodcom-examples{display:grid;grid-template-columns:1fr 1fr;gap:16px;margin-top:18px}
+.kg-foodcom-examples>div{border:1px solid #e1ece6;border-radius:12px;padding:16px 18px}
+.kg-foodcom-examples h4{margin:0 0 10px;color:#245041;font-size:14px}
+.kg-foodcom-examples p{display:flex;justify-content:space-between;gap:12px;margin:0;padding:7px 0;border-bottom:1px solid #eef3ef;color:#49695a;font-size:12px}
+.kg-foodcom-examples p:last-child{border:0}
+.kg-foodcom-examples p strong{font-weight:600;overflow-wrap:anywhere}
+.kg-foodcom-examples p span{flex:none;color:#7b9384}
+.kg-foodcom-note{color:#6d8478;font-size:12px;line-height:1.7;margin:16px 0 0}
+@media(max-width:800px){.kg-foodcom-head{align-items:flex-start;flex-direction:column}.kg-foodcom-examples{grid-template-columns:1fr}}
+@media(max-width:620px){.kg-datasets,.kg-foodcom-overview{padding:18px}.kg-dataset-grid{grid-template-columns:1fr}.kg-rename label{flex-basis:100%}.kg-rename small{width:100%}}
+
+
+.kg-rename .kg-delete-trigger{margin-left:auto;background:#fff4f2;border:1px solid #e7b7af;color:#ae4438}
+.kg-rename .kg-delete-trigger:hover{background:#ffe9e4}
+.kg-delete-backdrop{position:fixed;inset:0;z-index:1000;background:rgba(15,42,34,.48);display:grid;place-items:center;padding:20px}
+.kg-delete-dialog{width:min(440px,100%);padding:28px;background:#fff;border-radius:18px;box-shadow:0 25px 70px rgba(0,0,0,.16)}
+.kg-delete-icon{display:grid;place-items:center;width:40px;height:40px;border-radius:12px;background:#fff0ed;color:#bd463a;font-weight:800;font-size:24px}
+.kg-delete-dialog h3{margin:16px 0 9px;color:#223c32;font-size:21px}
+.kg-delete-dialog p{color:#5d6e64;line-height:1.7;margin:0}
+.kg-delete-dialog strong{color:#254d3f}
+.kg-delete-dialog>div{display:flex;justify-content:flex-end;gap:9px;margin-top:25px}
+.kg-delete-dialog button{height:40px;padding:0 17px;border:1px solid #dce8df;border-radius:9px;background:#fff;color:#385c4a;font:inherit;font-weight:700;cursor:pointer}
+.kg-delete-dialog .kg-delete-confirm{background:#bd4b40;border-color:#bd4b40;color:#fff}
+.kg-delete-dialog button:disabled{opacity:.6;cursor:wait}
+.kg-foodcom-graph-stats{margin-top:22px}
+
+
+.dataset-context{display:flex;align-items:center;gap:20px;flex-wrap:wrap;background:#fff;border:1px solid #dceae4;border-radius:14px;padding:15px 18px;margin:0 0 20px}
+.dataset-context label{display:flex;align-items:center;gap:12px;font-size:13px;font-weight:700;color:#2b6250}
+.dataset-context select{min-width:250px;max-width:100%;height:40px;border:1px solid #cfe2d7;border-radius:9px;padding:0 12px;background:#fff;color:#264c3f;font:inherit}
+.dataset-context p{margin:0;color:#71877a;font-size:12px;line-height:1.5}
+.lp-foodcom-card{background:#fff;border:1px solid #dceae4;border-radius:16px;padding:22px;margin:18px 0}
+.lp-foodcom-card h3{color:#194e3d;margin:0 0 8px}
+.lp-foodcom-card h3 small{color:#738d7d;font-size:12px;font-weight:500}
+.lp-foodcom-card>p{font-size:13px;color:#71877a}
+.lp-foodcom-search{display:flex;gap:9px;margin-top:16px}
+.lp-foodcom-search input{flex:1;min-width:0;height:42px;border:1px solid #cfdfd3;border-radius:9px;padding:0 12px}
+.lp-foodcom-search button{border:0;border-radius:9px;background:#12816c;color:#fff;padding:0 18px;font-weight:700}
+.lp-foodcom-search button:disabled{opacity:.5}
+.lp-foodcom-hits{display:flex;gap:8px;flex-wrap:wrap;margin-top:16px}
+.lp-foodcom-hits button{border:1px solid #dceae4;border-radius:8px;background:#f5faf7;color:#27614e;padding:8px 10px;text-align:left}
+.lp-foodcom-hits button.active{background:#def2e7;border-color:#40ab81}
+.lp-foodcom-hits small{color:#6e8c7b;margin-left:5px}
+.lp-foodcom-columns{display:grid;grid-template-columns:1fr 1fr;gap:20px;margin-top:14px}
+.lp-foodcom-columns h4{color:#21543f;margin:0 0 7px}
+.lp-foodcom-columns p{border-bottom:1px solid #edf2ee;padding:7px 0;margin:0;color:#345846;font-size:13px;display:flex;justify-content:space-between;gap:8px}
+.lp-foodcom-columns span{color:#7b9385;white-space:nowrap}
+.lp-foodcom-note{margin-top:16px!important}
+@media(max-width:720px){.dataset-context{align-items:stretch;flex-direction:column}.dataset-context label{align-items:stretch;flex-direction:column}.dataset-context select{min-width:0;width:100%}.lp-foodcom-columns{grid-template-columns:1fr}}
+
+
+.portal-dataset-context{margin-bottom:18px}
+.portal-dataset-context label{flex-wrap:wrap}
+.portal-dataset-context p{flex-basis:100%}
