@@ -56,9 +56,19 @@ def init_db():
         """)
 
 
+def normalize_account(username: str) -> str:
+    if not isinstance(username, str):
+        raise ValueError("请输入账号或邮箱")
+    account = username.strip()
+    if re.fullmatch(r"[A-Za-z][A-Za-z0-9_]{2,31}", account):
+        return account
+    if len(account) <= 254 and re.fullmatch(r"[^\s@]+@[^\s@]+\.[^\s@]+", account):
+        return account.lower()
+    raise ValueError("请输入有效邮箱，或 3–32 位字母开头的账号")
+
+
 def register(username: str, password: str) -> dict:
-    if not isinstance(username, str) or not re.fullmatch(r"[A-Za-z][A-Za-z0-9_]{2,31}", username):
-        raise ValueError("账号须为 3–32 位，以字母开头，仅含字母、数字或下划线")
+    username = normalize_account(username)
     if not isinstance(password, str) or len(password) < 8 or len(password) > 128:
         raise ValueError("密码须为 8–128 个字符")
     salt = secrets.token_bytes(16)
@@ -86,7 +96,11 @@ def guest_user() -> dict:
 
 
 def verify(username: str, password: str) -> dict | None:
-    if not isinstance(username, str) or not isinstance(password, str):
+    if not isinstance(password, str):
+        return None
+    try:
+        username = normalize_account(username)
+    except ValueError:
         return None
     with connection() as db:
         row = db.execute("SELECT * FROM users WHERE username=?", (username,)).fetchone()

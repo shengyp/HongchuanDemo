@@ -27,6 +27,13 @@ class AuthTest(unittest.TestCase):
         auth.delete_session(token)
         self.assertIsNone(auth.get_user(token))
 
+    def test_email_registration_and_login(self):
+        user = auth.register(" ShenHC2024@Example.COM ", "securepass123")
+        self.assertEqual(user["username"], "shenhc2024@example.com")
+        self.assertEqual(auth.verify("SHENHC2024@example.com", "securepass123"), user)
+        with self.assertRaisesRegex(ValueError, "账号已存在"):
+            auth.register("shenhc2024@EXAMPLE.com", "anotherpass123")
+
     def test_conversations_are_private(self):
         alice = auth.register("alice", "securepass123")
         bob = auth.register("bob", "securepass123")

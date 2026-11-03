@@ -21,8 +21,10 @@ function switchMode(next: 'login' | 'register'): void {
 async function submit(): Promise<void> {
   error.value = ''
   const account = username.value.trim()
-  if (!/^[A-Za-z][A-Za-z0-9_]{2,31}$/.test(account)) {
-    error.value = '账号须为 3–32 位，以字母开头，只能使用字母、数字和下划线。'
+  const namedAccount = /^[A-Za-z][A-Za-z0-9_]{2,31}$/.test(account)
+  const emailAccount = account.length <= 254 && /^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(account)
+  if (!namedAccount && !emailAccount) {
+    error.value = '请输入有效邮箱，或 3–32 位字母开头的账号。'
     return
   }
   if (mode.value === 'register' && (password.value.length < 8 || password.value.length > 128)) {
@@ -90,9 +92,9 @@ async function submit(): Promise<void> {
             </div>
 
             <form class="login-form" @submit.prevent="submit">
-              <label for="login-username">账号</label>
-              <input id="login-username" v-model="username" name="username" type="text" autocomplete="username" placeholder="请输入账号" maxlength="32" required />
-              <p v-if="mode === 'register'" class="login-field-hint">3–32 位，以字母开头，可使用字母、数字和下划线</p>
+              <label for="login-username">账号或邮箱</label>
+              <input id="login-username" v-model="username" name="username" type="text" autocomplete="username" placeholder="请输入账号或邮箱" maxlength="254" required />
+              <p v-if="mode === 'register'" class="login-field-hint">可使用邮箱，或 3–32 位字母开头的账号</p>
 
               <label for="login-password">密码</label>
               <div class="login-password-field">
